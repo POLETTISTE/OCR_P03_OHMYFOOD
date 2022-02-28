@@ -1,0 +1,19 @@
+{
+  "name": "ocr_projet03_ohmyfood",
+  "version": "1.0.0",
+  "description": "PROJET 03 OHMYFOOD OPENCLASSROOMS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:.public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/POLETTISTE/OCR_PROJET03_OHMYFOOD.git"
+  },
+  "author": "POLETTISTE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/POLETTISTE/OCR_PROJET03_OHMYFOOD/issues"
+  },
+  "homepage": "https://github.com/POLETTISTE/OCR_PROJET03_OHMYFOOD#readme"
+}
