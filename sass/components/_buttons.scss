@@ -1,0 +1,20 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height:60px;
+    border-radius: 30px;
+    font-size: $font-button;
+    margin: 0 auto;
+    padding:15px 0px;
+    border: none;
+    cursor: pointer;
+
+    &--explore{
+        background-color: pink;
+        color:white;
+        background: linear-gradient($color-secondary, $color-primary);
+    }
+
+}

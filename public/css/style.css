@@ -1,1 +1,173 @@
-body{font-size:39px;border:1px solid #000}/*# sourceMappingURL=style.css.map */
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+p {
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+
+h3, p {
+  font-weight: 300;
+}
+
+#logo-header, #logo-footer {
+  font-family: "Shrikhand", cursive;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 15px 0px;
+  border: none;
+  cursor: pointer;
+}
+.btn--explore {
+  background-color: pink;
+  color: white;
+  background: linear-gradient(#FF79DA, #9356DC);
+}
+
+.functioning__card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+.functioning__card__number {
+  position: relative;
+  right: 15px;
+  color: white;
+  border: 1px solid #9356DC;
+  background-color: #9356DC;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 20px;
+  height: 20px;
+}
+.functioning__card__icone {
+  font-size: 25px;
+  color: gray;
+}
+.functioning__card h3 {
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+header {
+  z-index: 1;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  height: 85px;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+#logo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin: 0;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  height: 65px;
+}
+.location i {
+  position: relative;
+  right: 25px;
+}
+.location h3 {
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+  right: 5px;
+}
+
+.explore {
+  background-color: whitesmoke;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.explore h1 {
+  width: 80%;
+  text-align: center;
+  margin-top: 50px;
+}
+.explore p {
+  text-align: center;
+  margin-top: 20px;
+}
+.explore a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.functioning {
+  padding-top: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+.functioning__heading {
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

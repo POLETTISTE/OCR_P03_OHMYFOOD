@@ -1,0 +1,7 @@
+// FONT-SIZES
+
+@each $key, $value in $font-title {
+    #{$key} {
+        font-size:#{$value}
+    }
+}

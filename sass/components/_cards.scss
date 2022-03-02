@@ -1,0 +1,33 @@
+.functioning__card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin:0 auto;
+    height:80px;
+    border:1px solid black;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    &__number {
+        position:relative;
+        right:15px;
+        color: white;
+        border:1px solid $color-primary;
+        background-color: $color-primary;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+        width: 20px;
+        height: 20px;
+    }
+    &__icone {
+        font-size: $icone-functioning;
+        color:gray;
+    }
+    & h3 {
+        font-weight: 500;
+        padding-left: 30px;
+    }
+}
