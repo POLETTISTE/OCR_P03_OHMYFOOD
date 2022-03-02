@@ -7,7 +7,15 @@ h2 {
 }
 
 h3 {
+  font-size: 21px;
+}
+
+h4 {
   font-size: 19px;
+}
+
+h5 {
+  font-size: 16px;
 }
 
 p {
@@ -23,11 +31,12 @@ a {
   text-decoration: none;
   color: black;
 }
-a:visited {
-  color: black;
+
+h3 {
+  font-weight: 500;
 }
 
-h3, p {
+p {
   font-weight: 300;
 }
 
@@ -53,19 +62,22 @@ body {
   cursor: pointer;
 }
 .btn--explore {
-  background-color: pink;
   color: white;
   background: linear-gradient(#FF79DA, #9356DC);
+}
+.btn--explore:hover {
+  background: red;
 }
 
 .functioning__card {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 350px;
   margin: 0 auto;
+  margin-bottom: 20px;
   height: 80px;
-  border: 1px solid black;
+  box-shadow: 1px 4px 10px #d2d2d2;
   border-radius: 20px;
   background-color: whitesmoke;
 }
@@ -86,10 +98,73 @@ body {
 .functioning__card__icone {
   font-size: 25px;
   color: gray;
+  position: relative;
+  left: 15px;
 }
-.functioning__card h3 {
+.functioning__card h4 {
   font-weight: 500;
-  padding-left: 30px;
+  padding-left: 40px;
+}
+.functioning__card:hover {
+  background-color: red;
+}
+
+.restaurants__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: 1px 4px 10px #d2d2d2;
+}
+.restaurants__card__image {
+  margin: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 190px;
+}
+.restaurants__card__image .new {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #99E2D0;
+  position: relative;
+  top: 15px;
+  left: 125px;
+}
+.restaurants__card__image.image01 {
+  background-image: url("../../public/img/restaurants/la_palette_du_gout.jpg");
+}
+.restaurants__card__image.image02 {
+  background-image: url("../../public/img/restaurants/la_note_enchantee.jpg");
+  background-position: top;
+}
+.restaurants__card__image.image03 {
+  background-image: url("../../public/img/restaurants/a_la_francaise.jpg");
+}
+.restaurants__card__image.image04 {
+  background-image: url("../../public/img/restaurants/le_delice_des_sens.jpg");
+}
+.restaurants__card__infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.restaurants__card__infos h3 {
+  padding: 20px 0px 5px 15px;
+}
+.restaurants__card__infos p {
+  padding-left: 15px;
+  padding-bottom: 20px;
 }
 
 .grid {
@@ -159,15 +234,30 @@ header {
   align-items: center;
   margin-top: 30px;
   margin-bottom: 60px;
+  border-radius: 30px;
 }
 
 .functioning {
   padding-top: 50px;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 .functioning__heading {
   margin-bottom: 30px;
+}
+.restaurants {
+  background-color: whitesmoke;
+}
+.restaurants__heading {
+  padding-top: 50px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.restaurants .icone-heart {
+  font-size: 25px;
+  padding: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

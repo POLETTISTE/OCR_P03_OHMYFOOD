@@ -12,9 +12,11 @@
     cursor: pointer;
 
     &--explore{
-        background-color: pink;
         color:white;
         background: linear-gradient($color-secondary, $color-primary);
+        &:hover {
+            background: red;
+        }
     }
 
 }
