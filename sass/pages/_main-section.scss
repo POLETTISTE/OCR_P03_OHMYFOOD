@@ -72,6 +72,7 @@
 
 .restaurants {
     background-color: $background-section-grey;
+    margin-bottom: 80px;;
     &__heading {
         padding-top: 50px;
         width:90%;
@@ -81,6 +82,6 @@
     }
     & .icone-heart{
         font-size: $icone-heart;
-        padding:25px;
+        margin:25px;
     }
 }

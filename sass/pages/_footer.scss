@@ -1,0 +1,35 @@
+footer {
+    background-color:rgb(50,50,50);
+    color: white;
+    padding:30px;
+    & div {
+        width:375px;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+    & ul {
+        padding:0px;
+        & li {
+            display: flex;
+            align-items: center;
+            margin-bottom:10px;
+            & .icone {
+                width: 30px;
+                margin:0;
+                
+            }
+        }
+    }
+
+}
+
+#logo-footer {
+    font-size:$logo-footer;
+    padding-bottom:30px;
+
+}
+
