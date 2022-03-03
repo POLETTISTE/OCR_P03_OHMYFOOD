@@ -1,14 +1,13 @@
 .functioning__card{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    @include flex-center-center;
     width: 350px;
     margin:0 auto;
     margin-bottom: 20px;
     height:80px;
-    box-shadow: 1px 4px 10px rgb(210, 210, 210);
     border-radius: 20px;
     background-color: rgb(245, 245, 245);
+    @include box-shadow-light;
+
     &__number {
         position:relative;
         right:15px;
@@ -16,9 +15,7 @@
         border:1px solid $color-primary;
         background-color: $color-primary;
         border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center-center;
         padding:15px;
         width: 20px;
         height: 20px;
@@ -46,7 +43,7 @@
     background-color: white;
     margin-bottom: 20px;
     border-radius: 20px;
-    box-shadow: 1px 4px 10px rgb(210, 210, 210);
+    @include box-shadow-light;
     &__image {
         margin:0;
         border-top-left-radius: 20px;

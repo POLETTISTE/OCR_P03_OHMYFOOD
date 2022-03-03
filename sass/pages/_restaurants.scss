@@ -1,0 +1,45 @@
+// SECTION RESTAURANTS
+
+.restaurants {
+    background-color: $background-section-grey;
+    margin-bottom: 80px;;
+    &__heading {
+        padding-top: 50px;
+        width:90%;
+        margin:0 auto;
+        margin-bottom:50px;
+
+    }
+
+}
+
+.favourite__heart {
+    display: flex;
+    & .fa-heart {
+        font-size: $icone-heart;
+        margin-top:25px;
+        margin-right: 25px;
+    }
+
+    & .heart__empty {
+        opacity: 1;
+    }
+
+    & .heart__colored {
+        position: absolute;
+        opacity: 0;
+        transform:scale(1);
+        transition: all ease-out 300ms;
+        &:hover {
+            opacity:1;
+            // au cas ou le navigateur ne supporte pas --> bg clip
+
+            background: linear-gradient(1800deg,$color-primary, $color-secondary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transform:scale(1.3);
+        }
+    }
+
+}
+

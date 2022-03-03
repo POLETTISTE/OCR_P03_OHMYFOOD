@@ -75,15 +75,15 @@ body {
 
 .functioning__card {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 350px;
   margin: 0 auto;
   margin-bottom: 20px;
   height: 80px;
-  box-shadow: 1px 4px 10px #d2d2d2;
   border-radius: 20px;
   background-color: whitesmoke;
+  box-shadow: 1px 4px 10px #d2d2d2;
 }
 .functioning__card__number {
   position: relative;
@@ -219,9 +219,9 @@ header {
   width: 100%;
   margin: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .explore h1 {
   width: 80%;
@@ -280,8 +280,7 @@ header {
 }
 .favourite__heart .heart__colored:hover {
   opacity: 1;
-  background-color: #9356DC;
-  background: linear-gradient(100deg, #9356DC, #FF79DA);
+  background: linear-gradient(1800deg, #9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.3);
