@@ -2,9 +2,7 @@
 
 .restaurants {
     background-color: $background-section-grey;
-    margin-bottom: 80px;
-
-
+    padding-bottom: 80px;
     &__heading {
         padding-top: 50px;
         width:90%;
@@ -12,7 +10,6 @@
         margin-bottom:50px;
 
     }
-
 }
 
 .favourite__heart {
