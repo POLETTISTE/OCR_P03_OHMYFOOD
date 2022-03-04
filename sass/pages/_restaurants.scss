@@ -29,12 +29,10 @@
         position: absolute;
         opacity: 0;
         transform:scale(1);
-        transition: all ease-out 300ms;
+        transition: all ease-out 200ms;
         &:hover {
             opacity:1;
-            // au cas ou le navigateur ne supporte pas --> bg clip
-
-            background: linear-gradient(1800deg,$color-primary, $color-secondary);
+            background: linear-gradient(180deg,$color-primary, $color-secondary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             transform:scale(1.3);

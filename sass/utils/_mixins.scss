@@ -1,9 +1,31 @@
+
+//MIXIN BOX-SHADOW GREY
 @mixin box-shadow-light{
     box-shadow: 1px 4px 10px rgb(210, 210, 210);
 }
-
+//MIXIN display:flex; justify-content:center;align-items:center;
 @mixin flex-center-center{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+// MIXIN lightness background-color :hover
+@mixin bg-lighteness-hover($color:$color-primary) {
+    @if (lightness($color)<25%) {
+        $color:darken($color, 35%)
+    }@else{
+        $color:lighten($color, 35%);
+    }
+        background: $color;
+}
+
+// MIXIN color deopends background-color
+@mixin text-color($color:$color-tertiary) {
+    @if (lightness($color)<25%) {
+        $color:lighten($color, 35%)
+    }@else{
+        $color:darken($color, 35%);
+    }
+        color: $color;
 }

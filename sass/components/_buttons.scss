@@ -14,8 +14,13 @@
     &--explore{
         color:white;
         background: linear-gradient($color-secondary, $color-primary);
+        transform:scale(1);
+        transition:all ease 300ms;
+
+        
         &:hover {
-            background: red;
+            transform: scale(1.15);
+            
         }
     }
 
