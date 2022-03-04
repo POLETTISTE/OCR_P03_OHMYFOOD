@@ -1,7 +1,28 @@
-// GRID METTRE MEDIA QUERIES !!
-
-.grid {
+.functioning__heading__grid {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+
+    @include tablet-media-query{
+        grid-template-columns: 1fr;
+        grid-gap:20px;
+    }
+
+    @include mobile-media-query{
+        grid-template-columns: 1fr;
+        grid-gap:20px;
+    }
 }
+
+
+.restaurants__heading__grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+
+    @include mobile-media-query{
+        grid-template-columns: 1fr;
+        grid-gap:20px;
+    }
+}
+

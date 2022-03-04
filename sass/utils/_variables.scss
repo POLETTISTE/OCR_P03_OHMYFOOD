@@ -20,6 +20,7 @@ $background-section-grey:rgb(245, 245, 245);
 
 //MEDIA QUERIES
 
-$breakpoints--mobile:(max:768px);
-$breakpoints--tablette:(min:769px, max:992px);
-$breakpoints--desktop:(min:993px);
+$breakpoints: (
+    mobile:768px,
+    tablet:1200px
+)

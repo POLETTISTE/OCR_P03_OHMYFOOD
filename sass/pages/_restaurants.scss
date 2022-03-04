@@ -2,12 +2,28 @@
 
 .restaurants {
     background-color: $background-section-grey;
-    margin-bottom: 80px;;
+    margin-bottom: 80px;
     &__heading {
         padding-top: 50px;
         width:90%;
         margin:0 auto;
         margin-bottom:50px;
+        &__grid {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(2, 1fr);
+        
+            @include tablet-media-query {
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap:20px;
+        
+            }
+            @include mobile-media-query{
+                grid-template-columns: 1fr;
+                grid-gap:20px;
+            }
+
+        }
 
     }
 
@@ -33,6 +49,7 @@
         &:hover {
             opacity:1;
             background: linear-gradient(180deg,$color-primary, $color-secondary);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             transform:scale(1.3);

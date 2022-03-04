@@ -9,6 +9,12 @@
     border-radius: 20px;
     background-color: rgb(245, 245, 245);
     @include box-shadow-light;
+    @include tablet-media-query {
+        width: 500px;
+    }
+    @include mobile-media-query {
+        width:350px;
+    }
 
     &__number {
         position:relative;
@@ -47,7 +53,9 @@
     background-color: white;
     margin-bottom: 20px;
     border-radius: 20px;
+    flex-grow:2;
     @include box-shadow-light;
+
     &__image {
         margin:0;
         border-top-left-radius: 20px;
@@ -55,8 +63,16 @@
         background-size: cover;
         background-position: bottom;
         background-repeat: no-repeat;
-        width:375px;
-        height:190px;
+        width:550px;
+        height:380px;
+        @include tablet-media-query{
+            width:375px;
+            height:190px;
+        }
+        @include mobile-media-query{
+            width:375px;
+            height:190px;
+        }
 
         & .new{
             display: flex;
@@ -70,7 +86,7 @@
             position: relative;
             top:15px;
             left:125px;
-            animation: new 1s infinite;
+            animation: new 2s infinite;
             
         }
         &.image01{
