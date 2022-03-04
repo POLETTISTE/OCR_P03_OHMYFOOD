@@ -35,6 +35,12 @@ footer {
             align-items: center;
             margin-right:30px;
             color:white;
+            transform:scale(1);
+            transition:all ease 300ms;
+            &:hover {
+                transform: scale(1.05);
+                color:$color-tertiary;
+            }
             @include tablet-media-query{
                 margin:0;
                 margin-top: 10px;

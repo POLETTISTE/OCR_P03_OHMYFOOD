@@ -58,10 +58,18 @@
     justify-content: center;
     margin:0 auto;
     background-color: white;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     border-radius: 20px;
-
+    transform:scale(1);
+    transition:all ease 300ms;
     @include box-shadow-light;
+    &:hover {
+        transform: scale(1.05);
+
+    }
+    @include mobile-media-query{
+        margin-bottom: 2%;
+    }
 
     &__image {
         margin:0;
