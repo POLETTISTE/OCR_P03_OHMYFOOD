@@ -1,7 +1,10 @@
 footer {
     background-color:rgb(50,50,50);
     color: white;
-    padding:30px;
+    padding: 0px 30px;
+    @include mobile-media-query {
+        padding:30px;
+        }
     & div {
         display: flex;
         flex-direction: row;

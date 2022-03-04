@@ -1,3 +1,5 @@
+// FUCTIONING CARD
+
 .functioning__card{
     display:flex;
     align-items: center;
@@ -45,6 +47,11 @@
     }
 }
 
+
+
+
+// RESTAURANTS CARD
+
 .restaurants__card{
     display: flex;
     flex-direction: column;
@@ -53,7 +60,7 @@
     background-color: white;
     margin-bottom: 20px;
     border-radius: 20px;
-    flex-grow:2;
+
     @include box-shadow-light;
 
     &__image {
@@ -63,7 +70,7 @@
         background-size: cover;
         background-position: bottom;
         background-repeat: no-repeat;
-        width:550px;
+        width:500px;
         height:380px;
         @include tablet-media-query{
             width:375px;
@@ -84,8 +91,8 @@
             background-color: $color-tertiary;
             @include text-color;
             position: relative;
-            top:15px;
-            left:125px;
+            top: 10%;
+            left: 33%;
             animation: new 2s infinite;
             
         }

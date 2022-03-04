@@ -145,7 +145,6 @@ body {
   background-color: white;
   margin-bottom: 20px;
   border-radius: 20px;
-  flex-grow: 2;
   box-shadow: 1px 4px 10px #d2d2d2;
 }
 .restaurants__card__image {
@@ -155,7 +154,7 @@ body {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  width: 550px;
+  width: 500px;
   height: 380px;
 }
 @media screen and (max-width: 1200px) {
@@ -180,8 +179,8 @@ body {
   background-color: #99E2D0;
   color: #2c9c81;
   position: relative;
-  top: 15px;
-  left: 125px;
+  top: 10%;
+  left: 33%;
   animation: new 2s infinite;
 }
 .restaurants__card__image.image01 {
@@ -229,12 +228,21 @@ body {
 }
 
 .restaurants__heading__grid {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1200px) {
+  .restaurants__heading__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
 }
 @media screen and (max-width: 768px) {
   .restaurants__heading__grid {
+    display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
   }
@@ -324,23 +332,6 @@ header {
   margin: 0 auto;
   margin-bottom: 50px;
 }
-.restaurants__heading__grid {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-}
-@media screen and (max-width: 1200px) {
-  .restaurants__heading__grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .restaurants__heading__grid {
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-  }
-}
 
 .favourite__heart {
   display: flex;
@@ -371,7 +362,12 @@ header {
 footer {
   background-color: #323232;
   color: white;
-  padding: 30px;
+  padding: 0px 30px;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 30px;
+  }
 }
 footer div {
   display: flex;
