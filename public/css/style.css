@@ -149,7 +149,7 @@ body {
   background-color: whitesmoke;
   box-shadow: 1px 4px 10px #d2d2d2;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   .functioning__card {
     width: 500px;
   }
@@ -272,11 +272,7 @@ body {
   width: 375px;
   height: 190px;
 }
-@media screen and (max-width: 1200px) {
-  .restaurants__card__image {
-    width: 375px;
-    height: 190px;
-  }
+@media screen and (max-width: 992px) {
   .restaurants__card__image h1 {
     font-size: 30px;
   }
@@ -297,10 +293,6 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  .restaurants__card__image {
-    width: 375px;
-    height: 190px;
-  }
   .restaurants__card__image h1 {
     font-size: 30px;
   }
@@ -365,7 +357,7 @@ body {
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   .functioning__heading__grid {
     grid-template-columns: 1fr;
     grid-gap: 20px;
@@ -420,7 +412,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   .restaurants__heading__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -650,7 +642,7 @@ footer ul {
   padding: 30px;
   display: flex;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   footer ul {
     display: block;
     padding: 0;
@@ -686,7 +678,7 @@ footer ul li:hover {
   transform: scale(1.05);
   color: #99E2D0;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   footer ul li {
     margin: 0;
     margin-top: 10px;
@@ -744,7 +736,7 @@ footer ul li .icone {
   font-size: 25px;
   color: white;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   #logo-footer {
     padding-bottom: 30px;
   }
