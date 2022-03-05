@@ -81,12 +81,10 @@
         width:375px;
         height:190px;
         @include tablet-media-query{
-            width:375px;
-            height:190px;
+
         }
         @include mobile-media-query{
-            width:375px;
-            height:190px;
+
         }
 
         & .new{
