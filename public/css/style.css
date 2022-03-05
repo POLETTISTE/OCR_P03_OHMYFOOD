@@ -269,8 +269,8 @@ body {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  width: 480px;
-  height: 380px;
+  width: 375px;
+  height: 190px;
 }
 @media screen and (max-width: 1200px) {
   .restaurants__card__image {
