@@ -1,14 +1,69 @@
-//KEYFRAMES new signal
 
-@keyframes new {
-   0% {
-       opacity:0; 
-    }
+ //LOADER
 
-   50% {
-       opacity:1;
+ @keyframes loader--spin{
+   0%{
+      transform: rotate(0deg) scale(1.1);
+      border-top-color: $color-secondary;
+       border-bottom-color: $color-primary;
+   }
+   25%{
+      transform: rotate(180deg) scale(1.3);
+      border-bottom-color: $color-primary;
+      border-top-color: $color-secondary;
+   }
+   50%{
+      transform: rotate(360deg)scale(1.5);
+      border-top-color: $color-secondary;
+      border-bottom-color: $color-primary;
+   }
+   75%{
+      transform: rotate(540deg)scale(1.8);
+      border-bottom-color: $color-primary;
+      border-top-color: $color-secondary;
+   }
+
+   95%{
+      transform: rotate(540deg)scale(2.8);
+      border-bottom-color: $color-primary;
+      border-top-color: $color-secondary;
+   }
+
+   100%{
+       transform: rotate(0deg)scale(1);
+       border-top-color: $color-secondary;
+       border-bottom-color: $color-primary;
+      }
+   }
+   @keyframes loader{
+      0%{
+         opacity: 1;
+         z-index: 2; 
+      }
+
+      50%{
+         opacity: 1;
+         z-index: 1; 
+      }
+      
+      100%{
+         opacity: 0;
+         z-index: 1;
+      }
+   }
+
+
+   //KEYFRAMES new signal
+   
+   @keyframes new {
+      0% {
+          opacity:0; 
+       }
+   
+      50% {
+          opacity:1;
+       }
+      100% {
+          opacity:0; 
+       }
     }
-   100% {
-       opacity:0; 
-    }
- }

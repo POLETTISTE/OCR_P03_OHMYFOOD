@@ -78,7 +78,7 @@
         background-size: cover;
         background-position: bottom;
         background-repeat: no-repeat;
-        width:500px;
+        width:480px;
         height:380px;
         @include tablet-media-query{
             width:375px;
@@ -102,7 +102,7 @@
             top: 10%;
             left: 33%;
             animation: new 2s infinite;
-            
+
         }
         &.image01{
             background-image: url("../../public/img/restaurants/la_palette_du_gout.jpg");
@@ -123,6 +123,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        
         h3 {
             padding: 20px 0px 5px 15px;
         }

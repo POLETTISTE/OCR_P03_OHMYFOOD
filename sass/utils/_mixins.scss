@@ -35,12 +35,23 @@
 
 @mixin mobile-media-query {
     @media screen and (max-width: map-get($breakpoints, mobile)){
+        @each $key, $value in map-get($map:$font-title , $key:mobile ) {
+            #{$key} {
+                font-size:#{$value}
+            }
+        }
+        
         @content;
         }
     };
 
 @mixin tablet-media-query {
     @media screen and (max-width: map-get($breakpoints, tablet)){
+        @each $key, $value in map-get($map:$font-title , $key:tablet ) {
+            #{$key} {
+                font-size:#{$value}
+            }
+        }
         @content;
         }
     };

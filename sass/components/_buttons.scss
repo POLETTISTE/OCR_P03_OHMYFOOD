@@ -13,7 +13,7 @@
 
     &--explore {
         color:white;
-        background: linear-gradient($color-secondary, $color-primary);
+        background: $background-gradient;
         transform:scale(1);
         transition:all ease 400ms;
         &:hover {
