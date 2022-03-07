@@ -156,46 +156,10 @@ body {
   .functioning__card {
     width: 500px;
   }
-  .functioning__card h1 {
-    font-size: 30px;
-  }
-  .functioning__card h2 {
-    font-size: 25px;
-  }
-  .functioning__card h3 {
-    font-size: 21px;
-  }
-  .functioning__card h4 {
-    font-size: 19px;
-  }
-  .functioning__card h5 {
-    font-size: 16px;
-  }
-  .functioning__card p {
-    font-size: 20px;
-  }
 }
 @media screen and (max-width: 768px) {
   .functioning__card {
     width: 350px;
-  }
-  .functioning__card h1 {
-    font-size: 30px;
-  }
-  .functioning__card h2 {
-    font-size: 25px;
-  }
-  .functioning__card h3 {
-    font-size: 21px;
-  }
-  .functioning__card h4 {
-    font-size: 19px;
-  }
-  .functioning__card h5 {
-    font-size: 16px;
-  }
-  .functioning__card p {
-    font-size: 20px;
   }
 }
 .functioning__card__number {
@@ -246,24 +210,6 @@ body {
 @media screen and (max-width: 768px) {
   .restaurants__card {
     margin-bottom: 2%;
-  }
-  .restaurants__card h1 {
-    font-size: 30px;
-  }
-  .restaurants__card h2 {
-    font-size: 25px;
-  }
-  .restaurants__card h3 {
-    font-size: 21px;
-  }
-  .restaurants__card h4 {
-    font-size: 19px;
-  }
-  .restaurants__card h5 {
-    font-size: 16px;
-  }
-  .restaurants__card p {
-    font-size: 20px;
   }
 }
 .restaurants__card__image {
@@ -326,47 +272,11 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 20px;
   }
-  .functioning__heading__grid h1 {
-    font-size: 30px;
-  }
-  .functioning__heading__grid h2 {
-    font-size: 25px;
-  }
-  .functioning__heading__grid h3 {
-    font-size: 21px;
-  }
-  .functioning__heading__grid h4 {
-    font-size: 19px;
-  }
-  .functioning__heading__grid h5 {
-    font-size: 16px;
-  }
-  .functioning__heading__grid p {
-    font-size: 20px;
-  }
 }
 @media screen and (max-width: 768px) {
   .functioning__heading__grid {
     grid-template-columns: 1fr;
     grid-gap: 20px;
-  }
-  .functioning__heading__grid h1 {
-    font-size: 30px;
-  }
-  .functioning__heading__grid h2 {
-    font-size: 25px;
-  }
-  .functioning__heading__grid h3 {
-    font-size: 21px;
-  }
-  .functioning__heading__grid h4 {
-    font-size: 19px;
-  }
-  .functioning__heading__grid h5 {
-    font-size: 16px;
-  }
-  .functioning__heading__grid p {
-    font-size: 20px;
   }
 }
 
@@ -382,48 +292,12 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
-  .restaurants__heading__grid h1 {
-    font-size: 30px;
-  }
-  .restaurants__heading__grid h2 {
-    font-size: 25px;
-  }
-  .restaurants__heading__grid h3 {
-    font-size: 21px;
-  }
-  .restaurants__heading__grid h4 {
-    font-size: 19px;
-  }
-  .restaurants__heading__grid h5 {
-    font-size: 16px;
-  }
-  .restaurants__heading__grid p {
-    font-size: 20px;
-  }
 }
 @media screen and (max-width: 768px) {
   .restaurants__heading__grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
-  }
-  .restaurants__heading__grid h1 {
-    font-size: 30px;
-  }
-  .restaurants__heading__grid h2 {
-    font-size: 25px;
-  }
-  .restaurants__heading__grid h3 {
-    font-size: 21px;
-  }
-  .restaurants__heading__grid h4 {
-    font-size: 19px;
-  }
-  .restaurants__heading__grid h5 {
-    font-size: 16px;
-  }
-  .restaurants__heading__grid p {
-    font-size: 20px;
   }
 }
 
@@ -548,24 +422,6 @@ footer a {
   footer {
     padding: 30px;
   }
-  footer h1 {
-    font-size: 30px;
-  }
-  footer h2 {
-    font-size: 25px;
-  }
-  footer h3 {
-    font-size: 21px;
-  }
-  footer h4 {
-    font-size: 19px;
-  }
-  footer h5 {
-    font-size: 16px;
-  }
-  footer p {
-    font-size: 20px;
-  }
 }
 footer div {
   display: flex;
@@ -584,24 +440,6 @@ footer div {
     justify-content: center;
     align-items: flex-start;
   }
-  footer div h1 {
-    font-size: 30px;
-  }
-  footer div h2 {
-    font-size: 25px;
-  }
-  footer div h3 {
-    font-size: 21px;
-  }
-  footer div h4 {
-    font-size: 19px;
-  }
-  footer div h5 {
-    font-size: 16px;
-  }
-  footer div p {
-    font-size: 20px;
-  }
 }
 footer ul {
   padding: 30px;
@@ -611,24 +449,6 @@ footer ul {
   footer ul {
     display: block;
     padding: 0;
-  }
-  footer ul h1 {
-    font-size: 30px;
-  }
-  footer ul h2 {
-    font-size: 25px;
-  }
-  footer ul h3 {
-    font-size: 21px;
-  }
-  footer ul h4 {
-    font-size: 19px;
-  }
-  footer ul h5 {
-    font-size: 16px;
-  }
-  footer ul p {
-    font-size: 20px;
   }
 }
 footer ul .footer-item {
@@ -652,47 +472,11 @@ footer ul li:hover {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  footer ul li h1 {
-    font-size: 30px;
-  }
-  footer ul li h2 {
-    font-size: 25px;
-  }
-  footer ul li h3 {
-    font-size: 21px;
-  }
-  footer ul li h4 {
-    font-size: 19px;
-  }
-  footer ul li h5 {
-    font-size: 16px;
-  }
-  footer ul li p {
-    font-size: 20px;
-  }
 }
 @media screen and (max-width: 768px) {
   footer ul li {
     margin-top: 0px;
     margin-bottom: 10px;
-  }
-  footer ul li h1 {
-    font-size: 30px;
-  }
-  footer ul li h2 {
-    font-size: 25px;
-  }
-  footer ul li h3 {
-    font-size: 21px;
-  }
-  footer ul li h4 {
-    font-size: 19px;
-  }
-  footer ul li h5 {
-    font-size: 16px;
-  }
-  footer ul li p {
-    font-size: 20px;
   }
 }
 footer ul li .icone {
@@ -706,24 +490,6 @@ footer #logo-footer {
 @media screen and (max-width: 992px) {
   footer #logo-footer {
     padding-bottom: 30px;
-  }
-  footer #logo-footer h1 {
-    font-size: 30px;
-  }
-  footer #logo-footer h2 {
-    font-size: 25px;
-  }
-  footer #logo-footer h3 {
-    font-size: 21px;
-  }
-  footer #logo-footer h4 {
-    font-size: 19px;
-  }
-  footer #logo-footer h5 {
-    font-size: 16px;
-  }
-  footer #logo-footer p {
-    font-size: 20px;
   }
 }
 
