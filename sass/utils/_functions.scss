@@ -1,0 +1,10 @@
+   // FUNCTIONS
+
+   //Font-title : 
+
+   @each $key, $value in $font-title {
+         #{$key} {
+             font-size: $value;
+         } 
+    }
+
