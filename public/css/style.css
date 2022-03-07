@@ -37,22 +37,15 @@
   }
   50% {
     opacity: 1;
+    z-index: 2;
+  }
+  80% {
+    opacity: 0.3;
     z-index: 1;
   }
   100% {
     opacity: 0;
     z-index: 1;
-  }
-}
-@keyframes new {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
   }
 }
 * {
