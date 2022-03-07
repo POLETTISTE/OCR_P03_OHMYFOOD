@@ -6,17 +6,17 @@
     background: #02055C;
     z-index: -1;
     opacity: 0;
-    animation: loader 1s;
+    animation: loader 2s;
     
 }
 
 .loader--spin{
     margin:auto;
     border: 5px dotted $color-primary;
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
     border-top-color: $color-secondary;
     border-top-color: $color-primary;
     border-radius: 50%;
-    animation: loader--spin 1s linear infinite;
+    animation: loader--spin 2s linear infinite;
 }
