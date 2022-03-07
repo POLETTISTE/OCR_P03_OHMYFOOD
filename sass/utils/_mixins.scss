@@ -92,9 +92,8 @@
     a {
         color:white;
     }
-
-@include mobile-media-query {
-    padding:30px;
+    @include mobile-media-query {
+        padding:30px;
     }
     & div {
         display: flex;
@@ -119,11 +118,12 @@
             display: block;
             padding: 0;
         }
+    
 
-    & .footer-item{
-        color:white;
+        & .footer-item{
+            color:white;
         }
-    & li {
+        & li {
         display: flex;
         align-items: center;
         margin-right:30px;
@@ -143,11 +143,11 @@
                 margin-top: 0px;
                 margin-bottom:10px;
             }
-            & .icone {
+        & .icone {
                 width: 30px;
                 margin:0; 
-            }
         }
+    }
 }
 
 #logo-footer {
