@@ -55,7 +55,6 @@
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 h3 {
@@ -88,7 +87,7 @@ body {
   background: #02055C;
   z-index: -1;
   opacity: 0;
-  animation: loader 3s;
+  animation: loader 1s;
 }
 
 .loader--spin {
@@ -99,7 +98,7 @@ body {
   border-top-color: #FF79DA;
   border-top-color: #9356DC;
   border-radius: 50%;
-  animation: loader--spin 3s linear infinite;
+  animation: loader--spin 1s linear infinite;
 }
 
 .btn {
@@ -223,6 +222,7 @@ body {
   justify-content: center;
   margin: 0 auto;
   background-color: white;
+  color: black;
   margin-bottom: 5%;
   border-radius: 20px;
   transform: scale(1);
@@ -264,46 +264,6 @@ body {
   background-repeat: no-repeat;
   width: 375px;
   height: 190px;
-}
-@media screen and (max-width: 992px) {
-  .restaurants__card__image h1 {
-    font-size: 30px;
-  }
-  .restaurants__card__image h2 {
-    font-size: 25px;
-  }
-  .restaurants__card__image h3 {
-    font-size: 21px;
-  }
-  .restaurants__card__image h4 {
-    font-size: 19px;
-  }
-  .restaurants__card__image h5 {
-    font-size: 16px;
-  }
-  .restaurants__card__image p {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .restaurants__card__image h1 {
-    font-size: 30px;
-  }
-  .restaurants__card__image h2 {
-    font-size: 25px;
-  }
-  .restaurants__card__image h3 {
-    font-size: 21px;
-  }
-  .restaurants__card__image h4 {
-    font-size: 19px;
-  }
-  .restaurants__card__image h5 {
-    font-size: 16px;
-  }
-  .restaurants__card__image p {
-    font-size: 20px;
-  }
 }
 .restaurants__card__image .new {
   display: flex;
@@ -466,11 +426,11 @@ header {
   height: 85px;
   box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
-
-#logo-header {
+header #logo-header {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
   font-size: 40px;
   margin: 0;
 }
@@ -572,6 +532,9 @@ footer {
   color: white;
   padding: 0px 30px;
 }
+footer a {
+  color: white;
+}
 @media screen and (max-width: 768px) {
   footer {
     padding: 30px;
@@ -659,6 +622,9 @@ footer ul {
     font-size: 20px;
   }
 }
+footer ul .footer-item {
+  color: white;
+}
 footer ul li {
   display: flex;
   align-items: center;
@@ -724,31 +690,30 @@ footer ul li .icone {
   width: 30px;
   margin: 0;
 }
-
-#logo-footer {
+footer #logo-footer {
   font-size: 25px;
   color: white;
 }
 @media screen and (max-width: 992px) {
-  #logo-footer {
+  footer #logo-footer {
     padding-bottom: 30px;
   }
-  #logo-footer h1 {
+  footer #logo-footer h1 {
     font-size: 30px;
   }
-  #logo-footer h2 {
+  footer #logo-footer h2 {
     font-size: 25px;
   }
-  #logo-footer h3 {
+  footer #logo-footer h3 {
     font-size: 21px;
   }
-  #logo-footer h4 {
+  footer #logo-footer h4 {
     font-size: 19px;
   }
-  #logo-footer h5 {
+  footer #logo-footer h5 {
     font-size: 16px;
   }
-  #logo-footer p {
+  footer #logo-footer p {
     font-size: 20px;
   }
 }

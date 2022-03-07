@@ -33,21 +33,23 @@
 
 //MIXIN MEDIA-QUERIES
 
+// MIXIN MOBILE
 @mixin mobile-media-query {
     @media screen and (max-width: map-get($breakpoints, mobile)){
-        @each $key, $value in map-get($map:$font-title , $key:mobile ) {
+        @each $key, $value in $font-title {
             #{$key} {
                 font-size:#{$value}
             }
-        }
-        
+        } 
         @content;
         }
     };
+
+// MIXIN TABLET
 
 @mixin tablet-media-query {
     @media screen and (max-width: map-get($breakpoints, tablet)){
-        @each $key, $value in map-get($map:$font-title , $key:tablet ) {
+        @each $key, $value in $font-title {
             #{$key} {
                 font-size:#{$value}
             }
@@ -56,3 +58,106 @@
         }
     };
 
+
+// ------------------------------------------------------------------------------------------
+
+// MIXIN HEADER
+
+@mixin header {
+        z-index: 1;
+        background-color: white;
+        position:sticky;
+        top:0;
+        display: flex;
+        justify-content: center;
+        height: 85px;
+        box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .2);;
+    #logo-header {
+        @include flex-center-center;
+        color:black;
+        font-size: $logo-header;
+        margin: 0;
+    }
+}
+
+
+// MIXIN FOOTER
+
+
+@mixin footer {
+
+    background-color:rgb(50,50,50);
+    color: white;
+    padding: 0px 30px;
+    a {
+        color:white;
+    }
+
+@include mobile-media-query {
+    padding:30px;
+    }
+    & div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        margin:0 auto;
+        flex-direction: row;
+        align-items: center;
+        @include mobile-media-query{
+            width:375px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    }
+    & ul {
+        padding:30px;
+        display: flex;
+        @include tablet-media-query{
+            display: block;
+            padding: 0;
+        }
+
+    & .footer-item{
+        color:white;
+        }
+    & li {
+        display: flex;
+        align-items: center;
+        margin-right:30px;
+        color:white;
+        transform:scale(1);
+        transition:all ease 300ms;
+        &:hover {
+            transform: scale(1.05);
+            color:$color-tertiary;
+            }
+            @include tablet-media-query{
+                margin:0;
+                margin-top: 10px;
+                margin-bottom:10px;
+            }
+            @include mobile-media-query {
+                margin-top: 0px;
+                margin-bottom:10px;
+            }
+            & .icone {
+                width: 30px;
+                margin:0; 
+            }
+        }
+}
+
+#logo-footer {
+    font-size:$logo-footer;
+    color:white;
+    @include tablet-media-query{
+        padding-bottom:30px;
+    }
+
+}
+
+
+}

@@ -6,7 +6,7 @@
     background: #02055C;
     z-index: -1;
     opacity: 0;
-    animation: loader 3s;
+    animation: loader 1s;
     
 }
 
@@ -18,6 +18,5 @@
     border-top-color: $color-secondary;
     border-top-color: $color-primary;
     border-radius: 50%;
-    animation: loader--spin 3s linear infinite;
+    animation: loader--spin 1s linear infinite;
 }
-
