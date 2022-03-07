@@ -27,15 +27,13 @@
     & .heart__colored {
         position: absolute;
         opacity: 0;
-        transform:scale(1);
-        transition: all ease-out 200ms;
+        transition: all ease-out 1500ms;
         &:hover {
             opacity:1;
             background: $background-gradient;
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            transform:scale(1.3);
         }
     }
 
