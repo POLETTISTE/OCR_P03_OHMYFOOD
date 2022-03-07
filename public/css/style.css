@@ -153,15 +153,15 @@ body {
   border: none;
   cursor: pointer;
 }
+.btn:hover {
+  opacity: 0.8;
+  box-shadow: 1px 4px 10px #6e6e6e;
+}
 .btn--explore {
   color: white;
   background: linear-gradient(180deg, #9356DC, #FF79DA);
   transition: all ease 400ms;
   box-shadow: 1px 4px 10px #d2d2d2;
-}
-.btn--explore:hover {
-  opacity: 0.8;
-  box-shadow: 1px 4px 10px #6e6e6e;
 }
 
 .functioning__card {
@@ -309,6 +309,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 992px) {
   .restaurants__heading__grid {

@@ -10,17 +10,16 @@
     padding:15px 0px;
     border: none;
     cursor: pointer;
+    &:hover {
+        opacity:0.8;
+        @include box-shadow-dark;
+    }
 
     &--explore {
         color:white;
         background: $background-gradient;
         transition:all ease 400ms;
         @include box-shadow-light;
-        &:hover {
-            opacity:0.8;
-        @include box-shadow-dark;
-
-        }
     }
 
 }
