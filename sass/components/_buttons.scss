@@ -14,15 +14,12 @@
     &--explore {
         color:white;
         background: $background-gradient;
-        transform:scale(1);
         transition:all ease 400ms;
+        @include box-shadow-light;
         &:hover {
-            transform: scale(1.15);
-            background:white;
-            color:$color-secondary;
-            border:3px solid $color-secondary;
-            font-size: 1.2em;
-            font-weight: 700;
+            opacity:0.8;
+        @include box-shadow-dark;
+
         }
     }
 

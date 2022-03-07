@@ -132,16 +132,12 @@ body {
 .btn--explore {
   color: white;
   background: linear-gradient(180deg, #9356DC, #FF79DA);
-  transform: scale(1);
   transition: all ease 400ms;
+  box-shadow: 1px 4px 10px #d2d2d2;
 }
 .btn--explore:hover {
-  transform: scale(1.15);
-  background: white;
-  color: #FF79DA;
-  border: 3px solid #FF79DA;
-  font-size: 1.2em;
-  font-weight: 700;
+  opacity: 0.8;
+  box-shadow: 1px 4px 10px #6e6e6e;
 }
 
 .functioning__card {
