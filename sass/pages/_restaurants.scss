@@ -12,30 +12,4 @@
     }
 }
 
-.favourite__heart {
-    display: flex;
-    & .fa-heart {
-        font-size: $icone-heart;
-        margin-top:25px;
-        margin-right: 25px;
-    }
-
-    & .heart__empty {
-        opacity: 1;
-    }
-
-    & .heart__colored {
-        position: absolute;
-        opacity: 0;
-        transition: all ease-out 1500ms;
-        &:hover {
-            opacity:1;
-            background: $background-gradient;
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-    }
-
-}
 
