@@ -3,3 +3,21 @@
 header{
 @include header;
 }
+
+#header-icone {
+    @include flex-center-center;
+    font-size:25px;
+    position:relative;
+    right:27%;
+    color:black;
+
+}
+
+.header__image{
+    width:100%;
+    height:550px;
+    background-image: url("../../public/img/restaurants/la_note_enchantee.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

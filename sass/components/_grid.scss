@@ -19,24 +19,16 @@
 // RESTAURANTS GRID
 
 .restaurants__heading__grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width:1440px;
-    margin:0 auto;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:20px;
 
     @include tablet-media-query {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap:20px;
 
     }
     @include mobile-media-query{
-        display: grid;
         grid-template-columns: 1fr;
-        grid-gap:20px;
     }
 }
 

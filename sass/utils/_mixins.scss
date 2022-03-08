@@ -100,7 +100,7 @@
         flex-direction: row;
         align-items: center;
         @include mobile-media-query{
-            width:375px;
+            width:100%;
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;

@@ -1,17 +1,17 @@
 h1 {
-  font-size: 30px;
+  font-size: 55px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 45px;
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 40px;
 }
 
 h4 {
-  font-size: 19px;
+  font-size: 25px;
 }
 
 h5 {
@@ -19,7 +19,7 @@ h5 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 @keyframes loader--spin {
@@ -108,7 +108,7 @@ ul {
   list-style-type: none;
 }
 
-#logo-header, #logo-footer {
+#logo-header, #logo-footer, #restaurant-name {
   font-family: "Shrikhand", cursive;
 }
 
@@ -167,7 +167,7 @@ body {
 .functioning__card {
   display: flex;
   align-items: center;
-  width: 350px;
+  width: 90%;
   color: gray;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -175,16 +175,6 @@ body {
   border-radius: 20px;
   background-color: whitesmoke;
   box-shadow: 1px 4px 10px #d2d2d2;
-}
-@media screen and (max-width: 992px) {
-  .functioning__card {
-    width: 500px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .functioning__card {
-    width: 350px;
-  }
 }
 .functioning__card__number {
   position: relative;
@@ -216,6 +206,7 @@ body {
 }
 
 .restaurants__card {
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -243,8 +234,8 @@ body {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  width: 375px;
-  height: 190px;
+  width: 100%;
+  height: 340px;
 }
 .restaurants__card__image .new {
   display: flex;
@@ -286,6 +277,12 @@ body {
   padding-bottom: 20px;
 }
 
+.menu__card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+
 .functioning__heading__grid {
   display: grid;
   grid-gap: 20px;
@@ -305,25 +302,18 @@ body {
 }
 
 .restaurants__heading__grid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 1440px;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 @media screen and (max-width: 992px) {
   .restaurants__heading__grid {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
   }
 }
 @media screen and (max-width: 768px) {
   .restaurants__heading__grid {
-    display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 20px;
   }
 }
 
@@ -368,6 +358,39 @@ header #logo-header {
   color: black;
   font-size: 40px;
   margin: 0;
+}
+
+#header-icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  position: relative;
+  right: 27%;
+  color: black;
+}
+
+.header__image {
+  width: 100%;
+  height: 550px;
+  background-image: url("../../public/img/restaurants/la_note_enchantee.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-section {
+  position: relative;
+  bottom: 115px;
+  margin-bottom: -115px;
+  background-color: #e6e6e6;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.main-section__menu {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .location {
@@ -461,7 +484,7 @@ footer div {
 }
 @media screen and (max-width: 768px) {
   footer div {
-    width: 375px;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
