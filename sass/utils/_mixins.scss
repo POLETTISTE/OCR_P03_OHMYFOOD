@@ -86,9 +86,20 @@
     padding: 0px 30px;
     a {
         color:white;
+        margin-right:30px;
+        display: flex;
+        align-items: flex-end;
+
     }
+    @include tablet-media-query {
+        margin-right: 5px;
+    }
+
     @include mobile-media-query {
         padding:30px;
+        display: block;
+
+        
     }
     & div {
         display: flex;
@@ -97,8 +108,7 @@
         align-items: center;
         width:100%;
         margin:0 auto;
-        flex-direction: row;
-        align-items: center;
+
         @include mobile-media-query{
             width:100%;
             flex-direction: column;
@@ -136,11 +146,15 @@
             }
             @include mobile-media-query {
                 margin-top: 0px;
-                margin-bottom:10px;
+                margin-bottom:20px;
             }
         & .icone {
                 width: 30px;
                 margin:0; 
+                margin-right:20px;
+                @include mobile-media-query {
+                    margin-right:30px;
+                }
         }
     }
 }

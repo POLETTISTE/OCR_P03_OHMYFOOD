@@ -7,19 +7,19 @@ h2 {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 33px;
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 28px;
 }
 
 p {
-  font-size: 35px;
+  font-size: 34px;
 }
 
 @keyframes loader--spin {
@@ -144,10 +144,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
-  height: 60px;
-  border-radius: 30px;
-  font-size: 18px;
+  width: 410px;
+  height: 80px;
+  font-size: 30px;
   margin: 0 auto;
   padding: 15px 0px;
   border: none;
@@ -167,7 +166,7 @@ body {
 .functioning__card {
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 100%;
   color: gray;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -177,6 +176,7 @@ body {
   box-shadow: 1px 4px 10px #d2d2d2;
 }
 .functioning__card__number {
+  font-size: 28px;
   position: relative;
   right: 15px;
   color: white;
@@ -186,19 +186,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 20px;
   width: 20px;
   height: 20px;
 }
 .functioning__card__icone {
-  font-size: 25px;
+  font-size: 35px;
   position: relative;
-  left: 15px;
+  left: 30px;
 }
 .functioning__card h4 {
+  font-size: 33px;
   color: black;
   font-weight: 500;
-  padding-left: 40px;
+  padding-left: 100px;
 }
 .functioning__card:hover {
   background: #f2eafb;
@@ -286,7 +287,8 @@ body {
 .functioning__heading__grid {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0 auto;
 }
 @media screen and (max-width: 992px) {
   .functioning__heading__grid {
@@ -303,7 +305,7 @@ body {
 
 .restaurants__heading__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
 @media screen and (max-width: 992px) {
@@ -321,9 +323,9 @@ body {
   display: flex;
 }
 .favourite__heart .fa-heart {
-  font-size: 25px;
-  margin-top: 25px;
-  margin-right: 25px;
+  font-size: 45px;
+  margin-top: 30px;
+  margin-right: 35px;
 }
 .favourite__heart .heart__empty {
   opacity: 1;
@@ -356,7 +358,7 @@ header #logo-header {
   justify-content: center;
   align-items: center;
   color: black;
-  font-size: 40px;
+  font-size: 60px;
   margin: 0;
 }
 
@@ -426,6 +428,7 @@ header #logo-header {
   margin-top: 50px;
 }
 .explore p {
+  width: 90%;
   text-align: center;
   margin-top: 20px;
 }
@@ -435,7 +438,7 @@ header #logo-header {
   align-items: center;
   margin-top: 30px;
   margin-bottom: 60px;
-  border-radius: 30px;
+  border-radius: 40px;
 }
 
 .functioning {
@@ -466,10 +469,19 @@ footer {
 }
 footer a {
   color: white;
+  margin-right: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+@media screen and (max-width: 992px) {
+  footer {
+    margin-right: 5px;
+  }
 }
 @media screen and (max-width: 768px) {
   footer {
     padding: 30px;
+    display: block;
   }
 }
 footer div {
@@ -479,8 +491,6 @@ footer div {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  flex-direction: row;
-  align-items: center;
 }
 @media screen and (max-width: 768px) {
   footer div {
@@ -525,15 +535,21 @@ footer ul li:hover {
 @media screen and (max-width: 768px) {
   footer ul li {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 footer ul li .icone {
   width: 30px;
   margin: 0;
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  footer ul li .icone {
+    margin-right: 30px;
+  }
 }
 footer #logo-footer {
-  font-size: 25px;
+  font-size: 35px;
   color: white;
 }
 @media screen and (max-width: 992px) {
