@@ -5,9 +5,11 @@ header{
 }
 
 #header-icone {
+    height:100%;
     @include flex-center-center;
-    position:relative;
-    right:27%;
+    position:absolute;
+    top:0;
+    left:1em;
     color:black;
 
 }

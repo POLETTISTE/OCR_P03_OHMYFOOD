@@ -17,9 +17,10 @@
     }
 
     & .heart__colored {
+        color:white;
         position: absolute;
         opacity: 0;
-        transition: all ease-out 1500ms;
+        transition: all 1500ms;
         &:hover {
             opacity:1;
             background: $background-gradient;

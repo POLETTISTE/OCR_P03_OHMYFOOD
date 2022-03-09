@@ -68,6 +68,20 @@ h5 {
   }
 }
 
+h6 {
+  font-size: 16.8px;
+}
+@media screen and (max-width: 992px) {
+  h6 {
+    font-size: 22.4px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h6 {
+    font-size: 28px;
+  }
+}
+
 p {
   font-size: 20.4px;
 }
@@ -135,6 +149,20 @@ p {
 @media screen and (max-width: 768px) {
   #icone-functioning {
     font-size: 35px;
+  }
+}
+
+#header-icone {
+  font-size: 24px;
+}
+@media screen and (max-width: 992px) {
+  #header-icone {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #header-icone {
+    font-size: 40px;
   }
 }
 
@@ -216,7 +244,7 @@ h3 {
   font-weight: 500;
 }
 
-p {
+p, h6 {
   font-weight: 300;
 }
 
@@ -226,6 +254,10 @@ ul {
 
 #logo-header, #logo-footer, #restaurant-name {
   font-family: "Shrikhand", cursive;
+}
+
+#restaurant-name {
+  font-weight: 300;
 }
 
 body {
@@ -428,9 +460,69 @@ body {
 }
 
 .menu__card {
+  cursor: pointer;
+  width: 100%;
+  max-width: 690px;
   background-color: white;
   border-radius: 20px;
-  padding: 20px 10px;
+  box-shadow: 1px 4px 10px #d2d2d2;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.menu__card__info__text {
+  width: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  padding-right: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.menu__card__info__text h4 {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 5px;
+}
+.menu__card__info__text h6 {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.menu__card__info__price {
+  width: 230px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.menu__card__animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0px;
+  opacity: 0;
+  font-size: 35px;
+  position: relative;
+  background-color: #99E2D0;
+  color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.menu__card__animation:hover {
+  width: 200px;
+  opacity: 1;
 }
 
 .functioning__heading__grid {
@@ -472,27 +564,28 @@ body {
   display: flex;
 }
 .favourite__heart .fa-heart {
-  font-size: 28px;
+  font-size: 36px;
   margin-top: 30px;
   margin-right: 35px;
 }
 @media screen and (max-width: 992px) {
   .favourite__heart .fa-heart {
-    font-size: 28px;
+    font-size: 36px;
   }
 }
 @media screen and (max-width: 768px) {
   .favourite__heart .fa-heart {
-    font-size: 35px;
+    font-size: 45px;
   }
 }
 .favourite__heart .heart__empty {
   opacity: 1;
 }
 .favourite__heart .heart__colored {
+  color: white;
   position: absolute;
   opacity: 0;
-  transition: all ease-out 1500ms;
+  transition: all 1500ms;
 }
 .favourite__heart .heart__colored:hover {
   opacity: 1;
@@ -521,11 +614,13 @@ header #logo-header {
 }
 
 #header-icone {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  right: 27%;
+  position: absolute;
+  top: 0;
+  left: 1em;
   color: black;
 }
 
@@ -542,6 +637,7 @@ header #logo-header {
   position: relative;
   bottom: 115px;
   margin-bottom: -115px;
+  padding-bottom: 100px;
   background-color: #e6e6e6;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -550,6 +646,18 @@ header #logo-header {
 .main-section__menu {
   width: 90%;
   margin: 0 auto;
+}
+
+.heading {
+  padding: 50px 0px;
+  padding-left: 10px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading .fa-heart {
+  margin: 0;
 }
 
 .location {
@@ -617,6 +725,16 @@ header #logo-header {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 50px;
+}
+
+.menu__course {
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #99E2D0;
+  position: relative;
+  top: 0;
+  left: 10px;
+  width: 2.5em;
 }
 
 footer {

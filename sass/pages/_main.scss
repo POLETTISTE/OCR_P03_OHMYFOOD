@@ -4,6 +4,7 @@
     position:relative;
     bottom:115px;
     margin-bottom:-115px;
+    padding-bottom:100px;
     background-color:$background-section-dark-grey;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
@@ -14,4 +15,17 @@
     width: 90%;
     margin:0 auto;
 
+}
+
+.heading {
+    padding:50px 0px;
+    padding-left:10px;
+    margin-right:40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    .fa-heart {
+        margin:0;
+
+    }
 }

@@ -143,10 +143,87 @@
 }
 
 
+
+
+
+
+
+
+
+
+
 // MENU CARD
 
 .menu__card {
+    cursor:pointer;
+    width:100%;
+    max-width:690px;
     background-color: white;
     border-radius: 20px;
-    padding:20px 10px;
+    @include box-shadow-light;
+    display: flex;
+    margin:0 auto;
+    margin-top:30px;
+    // Pour enlever grésillement lors du hover.
+    overflow: hidden;
+
+    &__info__text {
+        width: 600px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding:20px;
+        padding-right:0px;
+        border-top-left-radius:20px;
+        border-bottom-left-radius:20px;
+        // background-color: orange;
+        h4 {
+            width:100%;
+            overflow:hidden;
+            text-overflow: ellipsis;
+            white-space:nowrap;
+            margin-bottom: 5px;
+        }
+        h6 {
+            width:100%;
+            overflow:hidden;
+            text-overflow: ellipsis;
+            white-space:nowrap;
+
+        }
+    }  
+    &__info__price {
+        width:230px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 20px;
+        padding-right: 40px;
+        padding-left: 0px;
+        // background-color: blue;
+        border-top-right-radius:20px;
+        border-bottom-right-radius:20px;
+    }
+    &__animation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:0px;
+        opacity:0;
+        font-size: map-get($map: $font, $key: h3);
+        position:relative;
+        background-color: $color-tertiary;
+        color: white;
+        border-top-right-radius:20px;
+        border-bottom-right-radius:20px;
+        &:hover {
+            width:200px;
+            opacity:1;
+
+        }
+    }
+
+  
 }
