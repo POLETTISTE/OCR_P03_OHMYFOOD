@@ -70,7 +70,6 @@
     #logo-header {
         @include flex-center-center;
         color:black;
-        font-size: $logo-header;
         margin: 0;
     }
 }
@@ -160,7 +159,6 @@
 }
 
 #logo-footer {
-    font-size:$logo-footer;
     color:white;
     @include tablet-media-query{
         padding-bottom:30px;

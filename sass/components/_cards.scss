@@ -13,7 +13,7 @@
     @include box-shadow-light;
 
     &__number {
-        font-size: map-get($map: $font-title, $key: h5);
+        font-size: map-get($map: $font, $key: h5);
         position:relative;
         right:15px;
         color: white;
@@ -31,7 +31,7 @@
         left:30px;
     }
     & h4 {
-        font-size:map-get($map: $font-title, $key:h4 );
+        font-size:map-get($map: $font, $key:h4 );
         color:black;
         font-weight: 500;
         padding-left: 100px;
