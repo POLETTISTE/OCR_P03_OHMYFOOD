@@ -564,6 +564,7 @@ body {
   display: flex;
 }
 .favourite__heart .fa-heart {
+  color: grey;
   font-size: 36px;
   margin-top: 30px;
   margin-right: 35px;
@@ -637,7 +638,7 @@ header #logo-header {
   position: relative;
   bottom: 115px;
   margin-bottom: -115px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   background-color: #e6e6e6;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -649,7 +650,7 @@ header #logo-header {
 }
 
 .heading {
-  padding: 50px 0px;
+  padding-top: 50px;
   padding-left: 10px;
   margin-right: 40px;
   display: flex;
@@ -728,6 +729,7 @@ header #logo-header {
 }
 
 .menu__course {
+  padding-top: 80px;
   margin-bottom: 30px;
   padding-bottom: 5px;
   border-bottom: 5px solid #99E2D0;
@@ -735,6 +737,18 @@ header #logo-header {
   top: 0;
   left: 10px;
   width: 2.5em;
+}
+
+.order {
+  margin-top: 80px;
+}
+.order a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-radius: 40px;
 }
 
 footer {
@@ -750,7 +764,7 @@ footer a {
 }
 @media screen and (max-width: 992px) {
   footer {
-    margin-right: 5px;
+    padding-right: 5px;
   }
 }
 @media screen and (max-width: 768px) {

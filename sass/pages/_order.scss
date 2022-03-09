@@ -1,0 +1,11 @@
+// SECTION EXPLORE
+
+.order {
+    margin-top: 80px;
+    a {
+        @include flex-center-center;
+        margin-top:30px;
+        margin-bottom: 60px;
+        border-radius:40px;
+    }
+}
