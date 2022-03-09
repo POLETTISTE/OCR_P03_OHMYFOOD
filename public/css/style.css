@@ -472,7 +472,7 @@ body {
   overflow: hidden;
 }
 .menu__card__info__text {
-  width: 600px;
+  width: 615px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -521,7 +521,7 @@ body {
   border-bottom-right-radius: 20px;
 }
 .menu__card__animation:hover {
-  width: 200px;
+  width: 220px;
   opacity: 1;
 }
 
@@ -650,15 +650,31 @@ header #logo-header {
 }
 
 .heading {
+  width: 60%;
+  margin: 0 auto;
   padding-top: 50px;
-  padding-left: 10px;
-  margin-right: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .heading .fa-heart {
   margin: 0;
+}
+@media screen and (max-width: 992px) {
+  .heading {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .location {
