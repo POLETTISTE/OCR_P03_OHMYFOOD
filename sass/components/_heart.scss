@@ -1,9 +1,15 @@
 .favourite__heart {
     display: flex;
     & .fa-heart {
-        font-size: $icone-heart;
+        font-size: $icone-heart*0.8;
         margin-top:30px;
         margin-right: 35px;
+        @include tablet-media-query {
+            font-size: $icone-heart*0.8;
+        }
+        @include mobile-media-query {
+            font-size: $icone-heart; 
+        }
     }
 
     & .heart__empty {

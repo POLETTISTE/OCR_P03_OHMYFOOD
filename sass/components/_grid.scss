@@ -2,8 +2,8 @@
 
 .functioning__heading__grid {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
     margin:0 auto;
 
     @include tablet-media-query{

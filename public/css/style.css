@@ -55,16 +55,16 @@ h4 {
 }
 
 h5 {
-  font-size: 16.8px;
+  font-size: 12px;
 }
 @media screen and (max-width: 992px) {
   h5 {
-    font-size: 22.4px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 768px) {
   h5 {
-    font-size: 28px;
+    font-size: 20px;
   }
 }
 
@@ -121,6 +121,20 @@ p {
 @media screen and (max-width: 768px) {
   #font-button {
     font-size: 30px;
+  }
+}
+
+#icone-functioning {
+  font-size: 21px;
+}
+@media screen and (max-width: 992px) {
+  #icone-functioning {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #icone-functioning {
+    font-size: 35px;
   }
 }
 
@@ -246,12 +260,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 410px;
+  width: 300px;
   height: 80px;
   margin: 0 auto;
-  padding: 15px 0px;
+  padding: 25px 0px;
   border: none;
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 410px;
+  }
 }
 .btn:hover {
   opacity: 0.8;
@@ -271,13 +290,23 @@ body {
   color: gray;
   margin: 0 auto;
   margin-bottom: 20px;
+  padding: 50px 0px;
   height: 80px;
   border-radius: 20px;
   background-color: whitesmoke;
   box-shadow: 1px 4px 10px #d2d2d2;
 }
+@media screen and (max-width: 992px) {
+  .functioning__card {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .functioning__card {
+    width: 100%;
+  }
+}
 .functioning__card__number {
-  font-size: 28px;
   position: relative;
   right: 15px;
   color: white;
@@ -292,15 +321,33 @@ body {
   height: 20px;
 }
 .functioning__card__icone {
-  font-size: 35px;
   position: relative;
-  left: 30px;
+  left: 10px;
 }
-.functioning__card h4 {
-  font-size: 33px;
+@media screen and (max-width: 992px) {
+  .functioning__card__icone {
+    left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .functioning__card__icone {
+    left: 30px;
+  }
+}
+.functioning__card h3 {
   color: black;
   font-weight: 500;
-  padding-left: 100px;
+  padding-left: 50px;
+}
+@media screen and (max-width: 992px) {
+  .functioning__card h3 {
+    padding-left: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .functioning__card h3 {
+    padding-left: 100px;
+  }
 }
 .functioning__card:hover {
   background: #f2eafb;
@@ -340,6 +387,7 @@ body {
   height: 340px;
 }
 .restaurants__card__image .new {
+  font-size: 20px;
   display: flex;
   justify-content: center;
   width: 25%;
@@ -387,8 +435,8 @@ body {
 
 .functioning__heading__grid {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
 }
 @media screen and (max-width: 992px) {
@@ -424,9 +472,19 @@ body {
   display: flex;
 }
 .favourite__heart .fa-heart {
-  font-size: 45px;
+  font-size: 28px;
   margin-top: 30px;
   margin-right: 35px;
+}
+@media screen and (max-width: 992px) {
+  .favourite__heart .fa-heart {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .favourite__heart .fa-heart {
+    font-size: 35px;
+  }
 }
 .favourite__heart .heart__empty {
   opacity: 1;
@@ -555,7 +613,7 @@ header #logo-header {
   padding-bottom: 80px;
 }
 .restaurants__heading {
-  padding-top: 50px;
+  padding-top: 90px;
   width: 90%;
   margin: 0 auto;
   margin-bottom: 50px;
