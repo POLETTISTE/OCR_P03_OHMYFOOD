@@ -172,7 +172,8 @@
         opacity:1;
     }
     &:hover > &__animation i {
-        transform: rotate(0turn);
+        // transform: rotate(0turn);
+        animation: rotation 500ms;
     }
 
     &__info__text {
@@ -229,8 +230,9 @@
         transition:all 500ms;
         & i {
             color: white;
-            transform: rotate(-1turn);
-            transition:all 500ms;
+            // transform: rotate(-1turn);
+            // transition:all 500ms;
+            
         }
     }
 

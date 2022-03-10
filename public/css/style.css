@@ -231,6 +231,14 @@ p {
     opacity: 0;
   }
 }
+@keyframes rotation {
+  0% {
+    transform: rotate(-1turn);
+  }
+  100% {
+    transform: rotate(0turn);
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -476,7 +484,7 @@ body {
   opacity: 1;
 }
 .menu__card:hover > .menu__card__animation i {
-  transform: rotate(0turn);
+  animation: rotation 500ms;
 }
 .menu__card__info__text {
   width: 615px;
@@ -530,8 +538,6 @@ body {
 }
 .menu__card__animation i {
   color: white;
-  transform: rotate(-1turn);
-  transition: all 500ms;
 }
 
 .functioning__heading__grid {
