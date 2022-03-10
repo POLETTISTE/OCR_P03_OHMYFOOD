@@ -82,89 +82,80 @@
 
     background-color:rgb(50,50,50);
     color: white;
-    padding: 0px 30px;
-    a {
-        color:white;
-        margin-right:30px;
-        display: flex;
-        align-items: flex-end;
-
-    }
+    padding: 30px;
     @include tablet-media-query {
         padding-right: 5px;
     }
-
     @include mobile-media-query {
         padding:30px;
-        display: block;
-
-        
     }
-    & div {
+    a {
+        color:white;
+        margin-right:30px;
+        margin-bottom:5px;
+        display: flex;
+        align-items: flex-end;
+        transform:scale(1);
+        transition:all ease 300ms;
+        &:hover {
+            transform: scale(1.05);
+            color:$color-tertiary;
+        }
+    }
+    .footer__menu {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         width:100%;
         margin:0 auto;
-
+        @include tablet-media-query{
+            padding: 20px;
+        }
         @include mobile-media-query{
             width:100%;
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
         }
+        
     }
-    & ul {
-        padding:30px;
+
+    nav{
         display: flex;
         @include tablet-media-query{
             display: block;
-            padding: 0;
         }
-    
+        @include mobile-media-query{
+            display: block;
+        }
+    }
 
-        & .footer-item{
-            color:white;
+    .footer-item {
+        font-weight:500;
+        @include tablet-media-query {
+            margin-bottom: 10px;
         }
-        & li {
-        display: flex;
-        align-items: center;
-        margin-right:30px;
-        color:white;
-        transform:scale(1);
-        transition:all ease 300ms;
-        &:hover {
-            transform: scale(1.05);
-            color:$color-tertiary;
-            }
-            @include tablet-media-query{
-                margin:0;
-                margin-top: 10px;
-                margin-bottom:10px;
+        @include mobile-media-query {
+            margin-bottom: 10px;
+        }
+        
+        i{
+            width:30px;
+            @include tablet-media-query {
+                width:45px;
             }
             @include mobile-media-query {
-                margin-top: 0px;
-                margin-bottom:20px;
+                width:60px;
             }
-        & .icone {
-                width: 30px;
-                margin:0; 
-                margin-right:20px;
-                @include mobile-media-query {
-                    margin-right:30px;
-                }
+        }
+    }
+    #logo-footer {
+        color:white;
+        @include tablet-media-query{
+            padding-bottom:30px;
         }
     }
 }
 
-#logo-footer {
-    color:white;
-    @include tablet-media-query{
-        padding-bottom:30px;
-    }
 
-}
-
-
-}

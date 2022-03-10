@@ -273,10 +273,6 @@ p, h6 {
   font-weight: 300;
 }
 
-ul {
-  list-style-type: none;
-}
-
 #logo-header, #logo-footer, #restaurant-name {
   font-family: "Shrikhand", cursive;
 }
@@ -842,13 +838,7 @@ header #logo-header {
 footer {
   background-color: #323232;
   color: white;
-  padding: 0px 30px;
-}
-footer a {
-  color: white;
-  margin-right: 30px;
-  display: flex;
-  align-items: flex-end;
+  padding: 30px;
 }
 @media screen and (max-width: 992px) {
   footer {
@@ -858,10 +848,22 @@ footer a {
 @media screen and (max-width: 768px) {
   footer {
     padding: 30px;
-    display: block;
   }
 }
-footer div {
+footer a {
+  color: white;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: flex-end;
+  transform: scale(1);
+  transition: all ease 300ms;
+}
+footer a:hover {
+  transform: scale(1.05);
+  color: #99E2D0;
+}
+footer .footer__menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -869,60 +871,56 @@ footer div {
   width: 100%;
   margin: 0 auto;
 }
+@media screen and (max-width: 992px) {
+  footer .footer__menu {
+    padding: 20px;
+  }
+}
 @media screen and (max-width: 768px) {
-  footer div {
+  footer .footer__menu {
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
   }
 }
-footer ul {
-  padding: 30px;
+footer nav {
   display: flex;
 }
 @media screen and (max-width: 992px) {
-  footer ul {
+  footer nav {
     display: block;
-    padding: 0;
   }
 }
-footer ul .footer-item {
-  color: white;
+@media screen and (max-width: 768px) {
+  footer nav {
+    display: block;
+  }
 }
-footer ul li {
-  display: flex;
-  align-items: center;
-  margin-right: 30px;
-  color: white;
-  transform: scale(1);
-  transition: all ease 300ms;
-}
-footer ul li:hover {
-  transform: scale(1.05);
-  color: #99E2D0;
+footer .footer-item {
+  font-weight: 500;
 }
 @media screen and (max-width: 992px) {
-  footer ul li {
-    margin: 0;
-    margin-top: 10px;
+  footer .footer-item {
     margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 768px) {
-  footer ul li {
-    margin-top: 0px;
-    margin-bottom: 20px;
+  footer .footer-item {
+    margin-bottom: 10px;
   }
 }
-footer ul li .icone {
+footer .footer-item i {
   width: 30px;
-  margin: 0;
-  margin-right: 20px;
+}
+@media screen and (max-width: 992px) {
+  footer .footer-item i {
+    width: 45px;
+  }
 }
 @media screen and (max-width: 768px) {
-  footer ul li .icone {
-    margin-right: 30px;
+  footer .footer-item i {
+    width: 60px;
   }
 }
 footer #logo-footer {
