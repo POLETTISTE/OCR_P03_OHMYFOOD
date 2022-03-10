@@ -737,6 +737,10 @@ header #logo-header {
 }
 
 .explore {
+  background-image: url("../../public/img/restaurants/restaurant_paris.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   background-color: whitesmoke;
   width: 100%;
   margin: 0;
@@ -745,15 +749,39 @@ header #logo-header {
   align-items: center;
   flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  .explore {
+    background-image: none;
+  }
+}
 .explore h1 {
+  color: white;
+  font-size: 45px;
+  text-shadow: black 1px 0 10px;
   width: 80%;
   text-align: center;
   margin-top: 50px;
 }
+@media screen and (max-width: 768px) {
+  .explore h1 {
+    color: black;
+    text-shadow: none;
+  }
+}
 .explore p {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: black 1px 0 10px;
   width: 90%;
   text-align: center;
   margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .explore p {
+    color: black;
+    text-shadow: none;
+  }
 }
 .explore a {
   display: flex;
