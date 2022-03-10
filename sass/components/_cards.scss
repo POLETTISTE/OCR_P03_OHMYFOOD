@@ -170,7 +170,9 @@
     &:hover > &__animation{
         width:220px;
         opacity:1;
-
+    }
+    &:hover > &__animation i {
+        transform: rotate(0turn);
     }
 
     &__info__text {
@@ -224,7 +226,12 @@
         color: white;
         border-top-right-radius:20px;
         border-bottom-right-radius:20px;
-        transition:all 1000ms;
+        transition:all 500ms;
+        & i {
+            color: white;
+            transform: rotate(-1turn);
+            transition:all 500ms;
+        }
     }
 
   

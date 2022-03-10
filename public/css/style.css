@@ -475,6 +475,9 @@ body {
   width: 220px;
   opacity: 1;
 }
+.menu__card:hover > .menu__card__animation i {
+  transform: rotate(0turn);
+}
 .menu__card__info__text {
   width: 615px;
   overflow: hidden;
@@ -523,7 +526,12 @@ body {
   color: white;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  transition: all 1000ms;
+  transition: all 500ms;
+}
+.menu__card__animation i {
+  color: white;
+  transform: rotate(-1turn);
+  transition: all 500ms;
 }
 
 .functioning__heading__grid {
