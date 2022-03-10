@@ -166,6 +166,12 @@
     margin-top:30px;
     // Pour enlever grésillement lors du hover.
     overflow: hidden;
+    //animation depuis toute la carte span animation.
+    &:hover > &__animation{
+        width:220px;
+        opacity:1;
+
+    }
 
     &__info__text {
         width: 615px;
@@ -218,11 +224,7 @@
         color: white;
         border-top-right-radius:20px;
         border-bottom-right-radius:20px;
-        &:hover {
-            width:220px;
-            opacity:1;
-
-        }
+        transition:all 1000ms;
     }
 
   

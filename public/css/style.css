@@ -471,6 +471,10 @@ body {
   margin-top: 30px;
   overflow: hidden;
 }
+.menu__card:hover > .menu__card__animation {
+  width: 220px;
+  opacity: 1;
+}
 .menu__card__info__text {
   width: 615px;
   overflow: hidden;
@@ -519,10 +523,7 @@ body {
   color: white;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-}
-.menu__card__animation:hover {
-  width: 220px;
-  opacity: 1;
+  transition: all 1000ms;
 }
 
 .functioning__heading__grid {
