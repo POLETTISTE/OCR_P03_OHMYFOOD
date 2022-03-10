@@ -239,6 +239,20 @@ p {
     transform: rotate(0turn);
   }
 }
+@keyframes apparition {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -478,6 +492,18 @@ body {
   margin: 0 auto;
   margin-top: 30px;
   overflow: hidden;
+}
+.menu__card--01 {
+  animation: apparition 1000ms linear;
+}
+.menu__card--02 {
+  animation: apparition 1500ms linear;
+}
+.menu__card--03 {
+  animation: apparition 2000ms linear;
+}
+.menu__card--04 {
+  animation: apparition 2500ms linear;
 }
 .menu__card:hover > .menu__card__animation {
   width: 220px;

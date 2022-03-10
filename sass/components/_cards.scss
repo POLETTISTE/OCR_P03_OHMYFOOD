@@ -166,6 +166,30 @@
     margin-top:30px;
     // Pour enlever grésillement lors du hover.
     overflow: hidden;
+    //animation progressive
+
+    &--01 {
+        animation: apparition 1000ms linear;
+
+
+    }
+    &--02 {
+        animation: apparition 1500ms linear;
+
+
+    }
+    &--03 {
+        animation: apparition 2000ms linear;
+
+
+    }
+    &--04 {
+        animation: apparition 2500ms linear;
+
+
+    }
+
+
     //animation depuis toute la carte span animation.
     &:hover > &__animation{
         width:220px;
