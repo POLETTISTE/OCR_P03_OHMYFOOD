@@ -143,12 +143,6 @@
 }
 
 
-
-
-
-
-
-
 // MENU CARD
 
 .menu__card {
@@ -193,7 +187,6 @@
         opacity:1;
     }
     &:hover > &__animation i {
-        // transform: rotate(0turn);
         animation: rotation 500ms;
     }
 
@@ -208,7 +201,6 @@
         padding-right:0px;
         border-top-left-radius:20px;
         border-bottom-left-radius:20px;
-        // background-color: orange;
         h4 {
             width:100%;
             overflow:hidden;
@@ -232,7 +224,6 @@
         padding: 20px;
         padding-right: 40px;
         padding-left: 0px;
-        // background-color: blue;
         border-top-right-radius:20px;
         border-bottom-right-radius:20px;
     }
@@ -251,9 +242,6 @@
         transition:all 500ms;
         & i {
             color: white;
-            // transform: rotate(-1turn);
-            // transition:all 500ms;
-            
         }
     }
 
