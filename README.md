@@ -2,7 +2,7 @@
 
 PROJECT #03 OPENCLASSROOMS "OHMYFOOD"
 
-https://polettiste.github.io/OCR_PROJET03_OHMYFOOD/
+https://polettiste.github.io/StephanePoletti_3_28022022/
 
 
 MOBILE FIRST / TABLET / DESKTOP
