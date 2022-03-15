@@ -442,16 +442,28 @@ body {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  width: 25%;
+  align-items: center;
+  width: 20%;
+  height: 9%;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 10px 6px;
   background-color: #99E2D0;
   color: #2c9c81;
   position: relative;
-  top: 10%;
-  left: 33%;
+  top: 8%;
+  left: 34%;
   animation: new 2s infinite;
+}
+@media screen and (max-width: 992px) {
+  .restaurants__card__image .new {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .restaurants__card__image .new {
+    font-size: 25px;
+  }
 }
 .restaurants__card__image.image01 {
   background-image: url("../../public/img/restaurants/la_palette_du_gout.jpg");

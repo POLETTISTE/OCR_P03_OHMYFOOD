@@ -97,19 +97,27 @@
         height:340px;
 
         & .new{
-            font-size: map-get($map: $font, $key: h5);
+            font-size: 20px;
             display: flex;
             justify-content: center;
-            width:25%;
+            align-items: center;
+            width:20%;
+            height:9%;
             margin:0 auto;
             border-radius: 5px;
-            padding: 5px 10px;
+            padding: 10px 6px;
             background-color: $color-tertiary;
             @include text-color;
             position: relative;
-            top: 10%;
-            left: 33%;
+            top: 8%;
+            left: 34%;
             animation: new 2s infinite;
+            @include tablet-media-query {
+                font-size: 20px;
+            }
+            @include mobile-media-query {
+                font-size: 25px;
+            }
 
         }
         &.image01{
