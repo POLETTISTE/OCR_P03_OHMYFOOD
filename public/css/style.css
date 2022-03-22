@@ -13,16 +13,16 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
 }
 @media screen and (max-width: 992px) {
   h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 768px) {
   h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
@@ -55,16 +55,16 @@ h4 {
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 12px;
 }
 @media screen and (max-width: 992px) {
   h5 {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 768px) {
   h5 {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -83,16 +83,44 @@ h6 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
 }
 @media screen and (max-width: 992px) {
   p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 768px) {
   p {
+    font-size: 16px;
+  }
+}
+
+a {
+  font-size: 14px;
+}
+@media screen and (max-width: 992px) {
+  a {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  a {
+    font-size: 14px;
+  }
+}
+
+#location-icone {
+  font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+  #location-icone {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #location-icone {
+    font-size: 16px;
   }
 }
 
@@ -125,29 +153,29 @@ p {
 }
 
 #font-button {
-  font-size: 16px;
+  font-size: 14px;
 }
 @media screen and (max-width: 992px) {
   #font-button {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 768px) {
   #font-button {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
-#icone-functioning {
+i {
   font-size: 22px;
 }
 @media screen and (max-width: 992px) {
-  #icone-functioning {
+  i {
     font-size: 22px;
   }
 }
 @media screen and (max-width: 768px) {
-  #icone-functioning {
+  i {
     font-size: 22px;
   }
 }
@@ -314,7 +342,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 10px 30px;
+  padding: 15px 30px;
   border: none;
   cursor: pointer;
   width: fit-content;
@@ -331,19 +359,28 @@ body {
 }
 
 .functioning__card {
+  color: grey;
   display: flex;
   align-items: center;
-  color: gray;
   margin: 0 auto;
   margin-bottom: 20px;
   padding: 20px 0px;
+  width: 100%;
   border-radius: 20px;
   background-color: whitesmoke;
   box-shadow: 1px 4px 10px #d2d2d2;
 }
+.functioning__card:hover {
+  background: #f2eafb;
+  color: #9356DC;
+}
+.functioning__card:hover .functioning__card__icone {
+  color: #9356DC;
+}
 .functioning__card__number {
   position: relative;
-  right: 15px;
+  right: 8px;
+  padding: 12px;
   color: white;
   border: 1px solid #9356DC;
   background-color: #9356DC;
@@ -351,42 +388,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   width: 20px;
   height: 20px;
 }
 .functioning__card__icone {
-  position: relative;
-  left: 10px;
+  color: grey;
 }
-@media screen and (max-width: 992px) {
-  .functioning__card__icone {
-    left: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .functioning__card__icone {
-    left: 30px;
-  }
-}
-.functioning__card h3 {
+.functioning__card p {
   color: black;
   font-weight: 500;
-  padding-left: 50px;
-}
-@media screen and (max-width: 992px) {
-  .functioning__card h3 {
-    padding-left: 80px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .functioning__card h3 {
-    padding-left: 100px;
-  }
-}
-.functioning__card:hover {
-  background: #f2eafb;
-  color: #9356DC;
+  padding-left: 20px;
 }
 
 .restaurants__card {
@@ -429,12 +440,12 @@ body {
   height: 9%;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 10px 6px;
+  padding: 5px 10px;
   background-color: #99E2D0;
   color: #2c9c81;
   position: relative;
-  top: 8%;
-  left: 34%;
+  top: 6%;
+  left: 33%;
   animation: new 2s infinite;
 }
 @media screen and (max-width: 992px) {
@@ -598,18 +609,18 @@ body {
 }
 .favourite__heart .fa-heart {
   color: grey;
-  font-size: 16px;
+  font-size: 35px;
   margin-top: 30px;
   margin-right: 35px;
 }
 @media screen and (max-width: 992px) {
   .favourite__heart .fa-heart {
-    font-size: 16px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
   .favourite__heart .fa-heart {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 .favourite__heart .heart__empty {
@@ -629,23 +640,11 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.menu__course {
-  padding-top: 80px;
-  margin-bottom: 30px;
-  padding-bottom: 5px;
-  border-bottom: 5px solid #99E2D0;
-  position: relative;
-  top: 0;
-  left: 10px;
-  width: 2.5em;
-}
-
 .order {
   margin: 0 auto;
   margin-top: 80px;
 }
 .order a {
-  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -663,7 +662,7 @@ body {
 }
 .location i {
   position: relative;
-  right: 25px;
+  right: 13px;
 }
 .location h4 {
   font-weight: 300;
@@ -673,25 +672,14 @@ body {
 }
 
 .explore {
-  background-image: url("../../public/img/restaurants/restaurant_paris.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
   background-color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-@media screen and (max-width: 768px) {
-  .explore {
-    background-image: none;
-  }
-}
 .explore h2 {
-  color: white;
-  text-shadow: black 1px 0 10px;
-  width: 80%;
+  width: 60%;
   text-align: center;
   margin-top: 50px;
 }
@@ -701,16 +689,14 @@ body {
     text-shadow: none;
   }
 }
-.explore p {
-  color: white;
+.explore h3 {
   font-weight: 300;
-  text-shadow: black 1px 0 10px;
-  width: 90%;
+  width: 85%;
   text-align: center;
   margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
-  .explore p {
+  .explore h3 {
     color: black;
     text-shadow: none;
   }
@@ -732,6 +718,49 @@ body {
 }
 .functioning__heading {
   margin-bottom: 30px;
+}
+.functioning__heading__grid {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.restaurants {
+  background-color: whitesmoke;
+  padding-bottom: 80px;
+}
+.restaurants__heading {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.heading {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading .fa-heart {
+  margin: 0;
+}
+@media screen and (max-width: 992px) {
+  .heading {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 header {
@@ -848,17 +877,7 @@ footer .footer-item {
   }
 }
 footer .footer-item i {
-  width: 30px;
-}
-@media screen and (max-width: 992px) {
-  footer .footer-item i {
-    width: 45px;
-  }
-}
-@media screen and (max-width: 768px) {
-  footer .footer-item i {
-    width: 60px;
-  }
+  width: 45px;
 }
 footer #logo-footer {
   color: white;
@@ -884,43 +903,15 @@ footer #logo-footer {
   margin: 0 auto;
 }
 
-.heading {
-  width: 60%;
-  margin: 0 auto;
-  padding-top: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.heading .fa-heart {
-  margin: 0;
-}
-@media screen and (max-width: 992px) {
-  .heading {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .heading {
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-
-.restaurants {
-  background-color: whitesmoke;
-  padding-bottom: 80px;
-}
-.restaurants__heading {
-  padding-top: 90px;
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 50px;
+.menu__course {
+  padding-top: 80px;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #99E2D0;
+  position: relative;
+  top: 0;
+  left: 10px;
+  width: 2.5em;
 }
 
 /*# sourceMappingURL=style.css.map */

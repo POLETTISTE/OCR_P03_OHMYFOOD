@@ -2,11 +2,11 @@
     display: flex;
     & .fa-heart {
         color:grey;
-        font-size: $icone-heart*0.8;
+        font-size: $icone-heart*1.4;
         margin-top:30px;
         margin-right: 35px;
         @include tablet-media-query {
-            font-size: $icone-heart*0.8;
+            font-size: $icone-heart*1.2;
         }
         @include mobile-media-query {
             font-size: $icone-heart; 

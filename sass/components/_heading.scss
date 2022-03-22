@@ -1,0 +1,26 @@
+.heading {
+
+    margin:0 auto;
+    padding-top:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .fa-heart {
+        margin:0;
+
+    }
+    @include tablet-media-query {
+        width:80%;
+    }
+
+    @include mobile-media-query {
+        width:100%;
+        margin:0 auto;
+        padding-left:10px;
+        padding-right:20px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

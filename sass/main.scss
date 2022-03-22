@@ -21,11 +21,12 @@
 @import "./components/cards";
 @import "./components/grid";
 @import "./components/heart";
-@import "./components/meal";
 @import "./components/order";
 @import "./components/location";
 @import "./components/explore";
 @import "./components/functioning";
+@import "./components/restaurants";
+@import "./components/heading";
 
 // 5 - LAYOUTS
 @import "./layout/header";
@@ -33,6 +34,6 @@
 
 // 6 - PAGES
 @import "./pages/main";
-@import "./pages/restaurants";
+@import "./pages/meal";
 
 // 7 - THEMES
