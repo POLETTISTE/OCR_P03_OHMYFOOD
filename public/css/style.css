@@ -257,6 +257,7 @@ p {
   }
 }
 * {
+  box-sizing: border-box;
   margin: 0;
 }
 
@@ -313,9 +314,10 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 15px 20px;
+  padding: 10px 30px;
   border: none;
   cursor: pointer;
+  width: fit-content;
 }
 .btn:hover {
   opacity: 0.8;
@@ -639,9 +641,11 @@ body {
 }
 
 .order {
+  margin: 0 auto;
   margin-top: 80px;
 }
 .order a {
+  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -674,8 +678,6 @@ body {
   background-size: cover;
   background-position: bottom;
   background-color: whitesmoke;
-  width: 100%;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;

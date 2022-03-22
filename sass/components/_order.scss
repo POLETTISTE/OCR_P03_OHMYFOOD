@@ -1,8 +1,10 @@
 // SECTION EXPLORE
 
 .order {
+    margin:0 auto;
     margin-top: 80px;
     a {
+        width:fit-content;
         @include flex-center-center;
         margin-top:30px;
         margin-bottom: 60px;

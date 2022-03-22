@@ -2,16 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // width: 300px;
-    // height:80px;
     margin: 0 auto;
-    padding:15px 20px;
+    padding:10px 30px;
     border: none;
     cursor: pointer;
-    @include mobile-media-query {
-        // width: 410px;
+    width:fit-content;
 
-    }
+
     &:hover {
         opacity:0.8;
         @include box-shadow-dark;
