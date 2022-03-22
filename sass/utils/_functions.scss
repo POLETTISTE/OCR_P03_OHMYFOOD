@@ -4,9 +4,9 @@
 
 @each $key, $value in $font {
     #{$key} {
-        font-size: $value*0.6;
+        font-size: $value*1;
         @media screen and (max-width: map-get($breakpoints, tablet)){
-            font-size: $value*0.8;
+            font-size: $value*1;
         }
         @media screen and (max-width: map-get($breakpoints, mobile)) {
             font-size: $value;

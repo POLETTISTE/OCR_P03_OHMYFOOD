@@ -5,16 +5,16 @@ $color-tertiary:#99E2D0;
 
 
 // FONT-SIZES
-$font :(h1:55px, h2:45px, h3:35px, h4:33px, h5:20px,h6:28px, p:34px, #logo-header:60px, #logo-footer:35px, #font-button:30px, #icone-functioning:35px, #header-icone:40px);
+$font :(h1:28px, h2:20px, h3:18px, h4:16px, h5:14px,h6:12px, p:14px, #logo-header:30px, #logo-footer:20px, #font-button:16px, #icone-functioning:22px, #header-icone:30px);
 
-$icone-heart:45px;
+$icone-heart:20px;
 
 
 //BACKGROUND
 
 $background-section-dark-grey:rgb(230, 230, 230);
 $background-section-grey:rgb(245, 245, 245);
-$background-gradient:linear-gradient(180deg,$color-primary, $color-secondary);
+$background-gradient:linear-gradient(180deg,$color-secondary, $color-primary);
 
 
 //MEDIA QUERIES

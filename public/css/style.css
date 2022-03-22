@@ -1,168 +1,168 @@
 h1 {
-  font-size: 33px;
+  font-size: 28px;
 }
 @media screen and (max-width: 992px) {
   h1 {
-    font-size: 44px;
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 55px;
+    font-size: 28px;
   }
 }
 
 h2 {
-  font-size: 27px;
+  font-size: 20px;
 }
 @media screen and (max-width: 992px) {
   h2 {
-    font-size: 36px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 768px) {
   h2 {
-    font-size: 45px;
-  }
-}
-
-h3 {
-  font-size: 21px;
-}
-@media screen and (max-width: 992px) {
-  h3 {
-    font-size: 28px;
-  }
-}
-@media screen and (max-width: 768px) {
-  h3 {
-    font-size: 35px;
-  }
-}
-
-h4 {
-  font-size: 19.8px;
-}
-@media screen and (max-width: 992px) {
-  h4 {
-    font-size: 26.4px;
-  }
-}
-@media screen and (max-width: 768px) {
-  h4 {
-    font-size: 33px;
-  }
-}
-
-h5 {
-  font-size: 12px;
-}
-@media screen and (max-width: 992px) {
-  h5 {
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 768px) {
-  h5 {
     font-size: 20px;
   }
 }
 
+h3 {
+  font-size: 18px;
+}
+@media screen and (max-width: 992px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+  h4 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 16px;
+  }
+}
+
+h5 {
+  font-size: 14px;
+}
+@media screen and (max-width: 992px) {
+  h5 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h5 {
+    font-size: 14px;
+  }
+}
+
 h6 {
-  font-size: 16.8px;
+  font-size: 12px;
 }
 @media screen and (max-width: 992px) {
   h6 {
-    font-size: 22.4px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 768px) {
   h6 {
-    font-size: 28px;
+    font-size: 12px;
   }
 }
 
 p {
-  font-size: 20.4px;
+  font-size: 14px;
 }
 @media screen and (max-width: 992px) {
   p {
-    font-size: 27.2px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 768px) {
   p {
-    font-size: 34px;
+    font-size: 14px;
   }
 }
 
 #logo-header {
-  font-size: 36px;
+  font-size: 30px;
 }
 @media screen and (max-width: 992px) {
   #logo-header {
-    font-size: 48px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
   #logo-header {
-    font-size: 60px;
-  }
-}
-
-#logo-footer {
-  font-size: 21px;
-}
-@media screen and (max-width: 992px) {
-  #logo-footer {
-    font-size: 28px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #logo-footer {
-    font-size: 35px;
-  }
-}
-
-#font-button {
-  font-size: 18px;
-}
-@media screen and (max-width: 992px) {
-  #font-button {
-    font-size: 24px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #font-button {
     font-size: 30px;
   }
 }
 
+#logo-footer {
+  font-size: 20px;
+}
+@media screen and (max-width: 992px) {
+  #logo-footer {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #logo-footer {
+    font-size: 20px;
+  }
+}
+
+#font-button {
+  font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+  #font-button {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #font-button {
+    font-size: 16px;
+  }
+}
+
 #icone-functioning {
-  font-size: 21px;
+  font-size: 22px;
 }
 @media screen and (max-width: 992px) {
   #icone-functioning {
-    font-size: 28px;
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 768px) {
   #icone-functioning {
-    font-size: 35px;
+    font-size: 22px;
   }
 }
 
 #header-icone {
-  font-size: 24px;
+  font-size: 30px;
 }
 @media screen and (max-width: 992px) {
   #header-icone {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
   #header-icone {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
@@ -312,17 +312,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
-  height: 80px;
   margin: 0 auto;
-  padding: 25px 0px;
+  padding: 15px 20px;
   border: none;
   cursor: pointer;
-}
-@media screen and (max-width: 768px) {
-  .btn {
-    width: 410px;
-  }
 }
 .btn:hover {
   opacity: 0.8;
@@ -330,7 +323,7 @@ body {
 }
 .btn--explore {
   color: white;
-  background: linear-gradient(180deg, #9356DC, #FF79DA);
+  background: linear-gradient(180deg, #FF79DA, #9356DC);
   transition: all ease 400ms;
   box-shadow: 1px 4px 10px #d2d2d2;
 }
@@ -338,25 +331,13 @@ body {
 .functioning__card {
   display: flex;
   align-items: center;
-  width: 100%;
   color: gray;
   margin: 0 auto;
   margin-bottom: 20px;
-  padding: 50px 0px;
-  height: 80px;
+  padding: 20px 0px;
   border-radius: 20px;
   background-color: whitesmoke;
   box-shadow: 1px 4px 10px #d2d2d2;
-}
-@media screen and (max-width: 992px) {
-  .functioning__card {
-    width: 70%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .functioning__card {
-    width: 100%;
-  }
 }
 .functioning__card__number {
   position: relative;
@@ -435,7 +416,6 @@ body {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  width: 100%;
   height: 340px;
 }
 .restaurants__card__image .new {
@@ -462,7 +442,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .restaurants__card__image .new {
-    font-size: 25px;
+    font-size: 15px;
   }
 }
 .restaurants__card__image.image01 {
@@ -564,7 +544,7 @@ body {
   align-items: center;
   width: 0px;
   opacity: 0;
-  font-size: 35px;
+  font-size: 18px;
   position: relative;
   background-color: #99E2D0;
   color: white;
@@ -616,18 +596,18 @@ body {
 }
 .favourite__heart .fa-heart {
   color: grey;
-  font-size: 36px;
+  font-size: 16px;
   margin-top: 30px;
   margin-right: 35px;
 }
 @media screen and (max-width: 992px) {
   .favourite__heart .fa-heart {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 768px) {
   .favourite__heart .fa-heart {
-    font-size: 45px;
+    font-size: 20px;
   }
 }
 .favourite__heart .heart__empty {
@@ -641,10 +621,115 @@ body {
 }
 .favourite__heart .heart__colored:hover {
   opacity: 1;
-  background: linear-gradient(180deg, #9356DC, #FF79DA);
+  background: linear-gradient(180deg, #FF79DA, #9356DC);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.menu__course {
+  padding-top: 80px;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #99E2D0;
+  position: relative;
+  top: 0;
+  left: 10px;
+  width: 2.5em;
+}
+
+.order {
+  margin-top: 80px;
+}
+.order a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-radius: 40px;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  height: 65px;
+}
+.location i {
+  position: relative;
+  right: 25px;
+}
+.location h4 {
+  font-weight: 300;
+  margin: 0;
+  position: relative;
+  right: 5px;
+}
+
+.explore {
+  background-image: url("../../public/img/restaurants/restaurant_paris.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-color: whitesmoke;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .explore {
+    background-image: none;
+  }
+}
+.explore h2 {
+  color: white;
+  text-shadow: black 1px 0 10px;
+  width: 80%;
+  text-align: center;
+  margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .explore h2 {
+    color: black;
+    text-shadow: none;
+  }
+}
+.explore p {
+  color: white;
+  font-weight: 300;
+  text-shadow: black 1px 0 10px;
+  width: 90%;
+  text-align: center;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .explore p {
+    color: black;
+    text-shadow: none;
+  }
+}
+.explore a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-radius: 40px;
+}
+
+.functioning {
+  padding-top: 50px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.functioning__heading {
+  margin-bottom: 30px;
 }
 
 header {
@@ -683,167 +768,6 @@ header #logo-header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.main-section {
-  position: relative;
-  bottom: 115px;
-  margin-bottom: -115px;
-  padding-bottom: 80px;
-  background-color: #e6e6e6;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-}
-
-.main-section__menu {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.heading {
-  width: 60%;
-  margin: 0 auto;
-  padding-top: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.heading .fa-heart {
-  margin: 0;
-}
-@media screen and (max-width: 992px) {
-  .heading {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .heading {
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-
-.location {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e6e6e6;
-  height: 65px;
-}
-.location i {
-  position: relative;
-  right: 25px;
-}
-.location h3 {
-  font-weight: 400;
-  margin: 0;
-  position: relative;
-  right: 5px;
-}
-
-.explore {
-  background-image: url("../../public/img/restaurants/restaurant_paris.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  background-color: whitesmoke;
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-@media screen and (max-width: 768px) {
-  .explore {
-    background-image: none;
-  }
-}
-.explore h1 {
-  color: white;
-  font-size: 45px;
-  text-shadow: black 1px 0 10px;
-  width: 80%;
-  text-align: center;
-  margin-top: 50px;
-}
-@media screen and (max-width: 768px) {
-  .explore h1 {
-    color: black;
-    text-shadow: none;
-  }
-}
-.explore p {
-  color: white;
-  font-size: 35px;
-  font-weight: bold;
-  text-shadow: black 1px 0 10px;
-  width: 90%;
-  text-align: center;
-  margin-top: 20px;
-}
-@media screen and (max-width: 768px) {
-  .explore p {
-    color: black;
-    text-shadow: none;
-  }
-}
-.explore a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  margin-bottom: 60px;
-  border-radius: 40px;
-}
-
-.functioning {
-  padding-top: 50px;
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-.functioning__heading {
-  margin-bottom: 30px;
-}
-
-.restaurants {
-  background-color: whitesmoke;
-  padding-bottom: 80px;
-}
-.restaurants__heading {
-  padding-top: 90px;
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
-.menu__course {
-  padding-top: 80px;
-  margin-bottom: 30px;
-  padding-bottom: 5px;
-  border-bottom: 5px solid #99E2D0;
-  position: relative;
-  top: 0;
-  left: 10px;
-  width: 2.5em;
-}
-
-.order {
-  margin-top: 80px;
-}
-.order a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  margin-bottom: 60px;
-  border-radius: 40px;
 }
 
 footer {
@@ -941,6 +865,60 @@ footer #logo-footer {
   footer #logo-footer {
     padding-bottom: 30px;
   }
+}
+
+.main-section {
+  position: relative;
+  bottom: 115px;
+  margin-bottom: -115px;
+  padding-bottom: 80px;
+  background-color: #e6e6e6;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.main-section__menu {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.heading {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading .fa-heart {
+  margin: 0;
+}
+@media screen and (max-width: 992px) {
+  .heading {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.restaurants {
+  background-color: whitesmoke;
+  padding-bottom: 80px;
+}
+.restaurants__heading {
+  padding-top: 90px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
