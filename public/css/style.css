@@ -436,16 +436,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20%;
+  width: fit-content;
   height: 9%;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 20px 10px;
+  padding: 25px 20px;
   background-color: #99E2D0;
   color: #2c9c81;
   position: relative;
-  top: 40px;
-  left: 240px;
+  top: 8%;
+  left: 36%;
   animation: new 2s infinite;
 }
 .restaurants__card__image.image01 {
