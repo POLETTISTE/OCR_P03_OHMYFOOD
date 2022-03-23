@@ -7,10 +7,5 @@
     margin-bottom:50px;
     &__heading {
         margin-bottom: 30px;
-        &__grid {
-            display: flex;
-            flex-direction: column;
-            align-content: flex-start;
-        }
     }
 }

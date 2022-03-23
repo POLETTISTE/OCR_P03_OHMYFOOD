@@ -1,10 +1,11 @@
 // FUCTIONING GRID
 
 .functioning__heading__grid {
+
     display: grid;
+    margin:0 auto;
     grid-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
-    margin:0 auto;
 
     @include tablet-media-query{
         grid-template-columns: 1fr;
