@@ -41,44 +41,44 @@ h3 {
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 18px;
 }
 @media screen and (max-width: 992px) {
   h4 {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 768px) {
   h4 {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
 h5 {
-  font-size: 12px;
+  font-size: 14px;
 }
 @media screen and (max-width: 992px) {
   h5 {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 768px) {
   h5 {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
 h6 {
-  font-size: 12px;
+  font-size: 14px;
 }
 @media screen and (max-width: 992px) {
   h6 {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 768px) {
   h6 {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -342,7 +342,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 15px 30px;
+  padding: 15px 50px;
   border: none;
   cursor: pointer;
   width: fit-content;
@@ -429,10 +429,10 @@ body {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 340px;
+  height: 250px;
 }
 .restaurants__card__image .new {
-  font-size: 22px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -440,12 +440,12 @@ body {
   height: 9%;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 25px 20px;
+  padding: 20px 20px;
   background-color: #99E2D0;
   color: #2c9c81;
   position: relative;
   top: 8%;
-  left: 33%;
+  left: 30%;
   animation: new 2s infinite;
 }
 .restaurants__card__image.image01 {
@@ -483,7 +483,7 @@ body {
   box-shadow: 1px 4px 10px #d2d2d2;
   display: flex;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 15px;
   overflow: hidden;
 }
 .menu__card--01 {
@@ -512,12 +512,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 20px;
+  padding: 14px;
   padding-right: 0px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .menu__card__info__text h4 {
+  font-weight: 500;
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -535,11 +536,11 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 20px;
+  padding: 14px;
   padding-right: 40px;
   padding-left: 0px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .menu__card__animation {
   display: flex;
@@ -822,11 +823,6 @@ footer .footer__menu {
   width: 100%;
   margin: 0 auto;
 }
-@media screen and (max-width: 992px) {
-  footer .footer__menu {
-    padding: 20px;
-  }
-}
 @media screen and (max-width: 768px) {
   footer .footer__menu {
     width: 100%;
@@ -889,6 +885,7 @@ footer #logo-footer {
 }
 
 .menu__course {
+  font-weight: 300;
   padding-top: 80px;
   margin-bottom: 30px;
   padding-bottom: 5px;

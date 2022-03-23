@@ -49,6 +49,7 @@
 // RESTAURANTS CARD
 
 .restaurants__card{
+
     width:90%;
     display: flex;
     flex-direction: column;
@@ -74,10 +75,10 @@
         background-size: cover;
         background-position: bottom;
         background-repeat: no-repeat;
-        height:340px;
+        height:250px;
 
         & .new{
-            font-size: 22px;
+            font-size: 18px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -85,12 +86,12 @@
             height:9%;
             margin:0 auto;
             border-radius: 5px;
-            padding: 25px 20px;
+            padding: 20px 20px;
             background-color: $color-tertiary;
             @include text-color;
             position: relative;
             top: 8%;
-            left: 33%;
+            left: 30%;
             animation: new 2s infinite;
 
         }
@@ -136,7 +137,7 @@
     @include box-shadow-light;
     display: flex;
     margin:0 auto;
-    margin-top:30px;
+    margin-top:15px;
     // Pour enlever grésillement lors du hover.
     overflow: hidden;
     //animation progressive
@@ -179,11 +180,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        padding:20px;
+        padding:14px;
         padding-right:0px;
-        border-top-left-radius:20px;
-        border-bottom-left-radius:20px;
+        border-top-left-radius:5px;
+        border-bottom-left-radius:5px;
         h4 {
+            font-weight:500;
             width:100%;
             overflow:hidden;
             text-overflow: ellipsis;
@@ -203,11 +205,11 @@
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
-        padding: 20px;
+        padding: 14px;
         padding-right: 40px;
         padding-left: 0px;
-        border-top-right-radius:20px;
-        border-bottom-right-radius:20px;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
     }
     &__animation {
         display: flex;
